@@ -12,7 +12,8 @@
     "collect:details": "node scripts/collect-details.js",
     "collect:issues": "node scripts/collect-issues.js",
     "collect": "node scripts/collect-data.js && node scripts/collect-details.js && node scripts/collect-issues.js",
-    "score": "node scripts/scoring.js"
+    "score": "node scripts/scoring.js",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@octokit/plugin-retry": "^8.1.1",
@@ -29,6 +30,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.1.0",
+    "gh-pages": "^6.3.0",
     "oxlint": "^1.79.0",
     "tailwindcss": "^4.3.3",
     "typescript": "~6.0.2",

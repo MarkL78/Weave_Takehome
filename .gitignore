@@ -19,7 +19,6 @@ dist-ssr
 public/data/prs.json
 public/data/reviews.json
 public/data/issues.json
-public/data/summary.json
 
 # Editor directories and files
 .vscode/*
