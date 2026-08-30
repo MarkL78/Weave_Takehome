@@ -96,15 +96,32 @@ async function main() {
   console.log(`\nTop ${TOP_CANDIDATE_COUNT} candidates:`);
   sortedAuthors.slice(0, TOP_CANDIDATE_COUNT).forEach(([a, c]) => console.log(`  ${a}: ${c} PRs`));
 
-  // Select PRs to fetch details for
+  // Select PRs to fetch details for, hard-capped at DETAIL_CAP total
   const topAuthorPRs = merged.filter(pr => topAuthors.has(pr.author));
   const otherPRs = merged.filter(pr => !topAuthors.has(pr.author));
-  const otherCap = Math.max(0, DETAIL_CAP - topAuthorPRs.length);
-  const sampledOtherPRs = otherPRs.slice(0, otherCap);
-  const detailPRs = [...topAuthorPRs, ...sampledOtherPRs];
 
-  console.log(`\nFetching details for ${detailPRs.length} PRs (${topAuthorPRs.length} top-author + ${sampledOtherPRs.length} others)`);
-  console.log(`Estimated API calls: ~${detailPRs.length * 2} (files + reviews)\n`);
+  // If top-author PRs alone exceed the cap, sample them evenly per author
+  let selectedTopPRs = topAuthorPRs;
+  if (topAuthorPRs.length > DETAIL_CAP) {
+    const perAuthor = Math.floor(DETAIL_CAP / topAuthors.size);
+    const byAuthor = {};
+    for (const pr of topAuthorPRs) {
+      if (!byAuthor[pr.author]) byAuthor[pr.author] = [];
+      byAuthor[pr.author].push(pr);
+    }
+    selectedTopPRs = [];
+    for (const prs of Object.values(byAuthor)) {
+      selectedTopPRs.push(...prs.slice(0, perAuthor));
+    }
+    selectedTopPRs = selectedTopPRs.slice(0, DETAIL_CAP);
+  }
+
+  const otherCap = Math.max(0, DETAIL_CAP - selectedTopPRs.length);
+  const sampledOtherPRs = otherPRs.slice(0, otherCap);
+  const detailPRs = [...selectedTopPRs, ...sampledOtherPRs].slice(0, DETAIL_CAP);
+
+  console.log(`\nFetching details for ${detailPRs.length} PRs (${selectedTopPRs.length} top-author + ${sampledOtherPRs.length} others)`);
+  console.log(`Hard cap: ${DETAIL_CAP}. Estimated API calls: ~${detailPRs.length * 2} (files + reviews)\n`);
 
   // Fetch files
   console.log('--- Fetching files ---');
