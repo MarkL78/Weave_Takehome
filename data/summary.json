@@ -1,0 +1,963 @@
+{
+  "metadata": {
+    "repo": "posthog/posthog",
+    "windowDays": 90,
+    "generatedAt": "2026-08-30T01:35:03.624Z",
+    "totalPRsAnalyzed": 1323,
+    "totalReviewsAnalyzed": 3171,
+    "totalIssuesAnalyzed": 239,
+    "totalEngineersScored": 123
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "username": "tatoalo",
+      "displayName": "Engineer 1",
+      "overallScore": 55.27,
+      "dimensions": {
+        "scopeOfInfluence": 64.29,
+        "reviewAuthority": 43.38,
+        "unblockingPower": 73.15,
+        "prSignificance": 67.19,
+        "discussionLeadership": 0
+      },
+      "dimensionDetails": [
+        {
+          "name": "Scope of Influence",
+          "key": "scopeOfInfluence",
+          "weight": 0.05,
+          "score": 64.29,
+          "weighted": 3.21,
+          "subBreakdowns": [
+            {
+              "label": "Top-level directories touched",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "name": "Review Authority",
+          "key": "reviewAuthority",
+          "weight": 0.3,
+          "score": 43.38,
+          "weighted": 13.01,
+          "subBreakdowns": [
+            {
+              "label": "Breadth (distinct authors reviewed)",
+              "value": 85.71
+            },
+            {
+              "label": "Substance (substantive review ratio)",
+              "value": 6.45
+            },
+            {
+              "label": "Review-to-Author ratio",
+              "value": 23.85
+            }
+          ]
+        },
+        {
+          "name": "Unblocking Power",
+          "key": "unblockingPower",
+          "weight": 0.35,
+          "score": 73.15,
+          "weighted": 25.6,
+          "subBreakdowns": [
+            {
+              "label": "Review turnaround (inverse, faster=better)",
+              "value": 98.97
+            },
+            {
+              "label": "Merged PRs reviewed",
+              "value": 47.33
+            }
+          ]
+        },
+        {
+          "name": "PR Significance",
+          "key": "prSignificance",
+          "weight": 0.2,
+          "score": 67.19,
+          "weighted": 13.44,
+          "subBreakdowns": [
+            {
+              "label": "Cross-directory scope",
+              "value": 47.51
+            },
+            {
+              "label": "Merge rate",
+              "value": 90.91
+            },
+            {
+              "label": "Work type diversity",
+              "value": 75
+            }
+          ]
+        },
+        {
+          "name": "Discussion Leadership",
+          "key": "discussionLeadership",
+          "weight": 0.1,
+          "score": 0,
+          "weighted": 0,
+          "subBreakdowns": [
+            {
+              "label": "Issue comments",
+              "value": 0
+            },
+            {
+              "label": "PR discussion",
+              "value": 0
+            },
+            {
+              "label": "Issues closed",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "notablePRs": [
+        {
+          "number": 79676,
+          "title": "feat(desktop): search pull requests and artifacts in Cmd+K",
+          "url": "https://github.com/PostHog/posthog/pull/79676",
+          "filesChanged": 27,
+          "dirsSpread": 4,
+          "additions": 1496,
+          "deletions": 24
+        },
+        {
+          "number": 81235,
+          "title": "feat(tasks): agent peer messaging between cloud runs",
+          "url": "https://github.com/PostHog/posthog/pull/81235",
+          "filesChanged": 32,
+          "dirsSpread": 3,
+          "additions": 3001,
+          "deletions": 4
+        },
+        {
+          "number": 88672,
+          "title": "feat(tasks): serve a PostHog preview from dev-stack cloud runs",
+          "url": "https://github.com/PostHog/posthog/pull/88672",
+          "filesChanged": 22,
+          "dirsSpread": 4,
+          "additions": 1349,
+          "deletions": 3
+        },
+        {
+          "number": 79608,
+          "title": "feat(tasks): enforce network allowlists on Modal VMs",
+          "url": "https://github.com/PostHog/posthog/pull/79608",
+          "filesChanged": 22,
+          "dirsSpread": 3,
+          "additions": 958,
+          "deletions": 92
+        },
+        {
+          "number": 83590,
+          "title": "feat(desktop): gate GLM 5.3 across model pickers",
+          "url": "https://github.com/PostHog/posthog/pull/83590",
+          "filesChanged": 32,
+          "dirsSpread": 2,
+          "additions": 328,
+          "deletions": 58
+        }
+      ],
+      "notableReviews": [
+        {
+          "prNumber": 90342,
+          "prTitle": "chore(llm-gateway): fail tests when a routed model has no price",
+          "prUrl": "https://github.com/PostHog/posthog/pull/90342",
+          "turnaroundHours": 0.03,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 88289,
+          "prTitle": "fix(desktop): preserve project during auth recovery",
+          "prUrl": "https://github.com/PostHog/posthog/pull/88289",
+          "turnaroundHours": 0.04,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 88548,
+          "prTitle": "feat(tasks): expose onboarding domain research outcomes",
+          "prUrl": "https://github.com/PostHog/posthog/pull/88548",
+          "turnaroundHours": 0.05,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 87745,
+          "prTitle": "fix(desktop): respect model entitlement in onboarding",
+          "prUrl": "https://github.com/PostHog/posthog/pull/87745",
+          "turnaroundHours": 0.06,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 87092,
+          "prTitle": "fix(tasks): bypass compute quota for staff",
+          "prUrl": "https://github.com/PostHog/posthog/pull/87092",
+          "turnaroundHours": 0.07,
+          "state": "APPROVED"
+        }
+      ],
+      "activityTimeline": [
+        {
+          "week": "2026-W32",
+          "prsAuthored": 12,
+          "reviewsGiven": 7
+        },
+        {
+          "week": "2026-W33",
+          "prsAuthored": 43,
+          "reviewsGiven": 20
+        },
+        {
+          "week": "2026-W34",
+          "prsAuthored": 36,
+          "reviewsGiven": 18
+        },
+        {
+          "week": "2026-W35",
+          "prsAuthored": 39,
+          "reviewsGiven": 22
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "username": "sampennington",
+      "displayName": "Engineer 2",
+      "overallScore": 45.86,
+      "dimensions": {
+        "scopeOfInfluence": 46.43,
+        "reviewAuthority": 35.94,
+        "unblockingPower": 50.28,
+        "prSignificance": 73.64,
+        "discussionLeadership": 4.29
+      },
+      "dimensionDetails": [
+        {
+          "name": "Scope of Influence",
+          "key": "scopeOfInfluence",
+          "weight": 0.05,
+          "score": 46.43,
+          "weighted": 2.32,
+          "subBreakdowns": [
+            {
+              "label": "Top-level directories touched",
+              "value": 13
+            }
+          ]
+        },
+        {
+          "name": "Review Authority",
+          "key": "reviewAuthority",
+          "weight": 0.3,
+          "score": 35.94,
+          "weighted": 10.78,
+          "subBreakdowns": [
+            {
+              "label": "Breadth (distinct authors reviewed)",
+              "value": 14.29
+            },
+            {
+              "label": "Substance (substantive review ratio)",
+              "value": 100
+            },
+            {
+              "label": "Review-to-Author ratio",
+              "value": 0.75
+            }
+          ]
+        },
+        {
+          "name": "Unblocking Power",
+          "key": "unblockingPower",
+          "weight": 0.35,
+          "score": 50.28,
+          "weighted": 17.6,
+          "subBreakdowns": [
+            {
+              "label": "Review turnaround (inverse, faster=better)",
+              "value": 99.8
+            },
+            {
+              "label": "Merged PRs reviewed",
+              "value": 0.76
+            }
+          ]
+        },
+        {
+          "name": "PR Significance",
+          "key": "prSignificance",
+          "weight": 0.2,
+          "score": 73.64,
+          "weighted": 14.73,
+          "subBreakdowns": [
+            {
+              "label": "Cross-directory scope",
+              "value": 66.14
+            },
+            {
+              "label": "Merge rate",
+              "value": 85.9
+            },
+            {
+              "label": "Work type diversity",
+              "value": 75
+            }
+          ]
+        },
+        {
+          "name": "Discussion Leadership",
+          "key": "discussionLeadership",
+          "weight": 0.1,
+          "score": 4.29,
+          "weighted": 0.43,
+          "subBreakdowns": [
+            {
+              "label": "Issue comments",
+              "value": 0
+            },
+            {
+              "label": "PR discussion",
+              "value": 0
+            },
+            {
+              "label": "Issues closed",
+              "value": 14.29
+            }
+          ]
+        }
+      ],
+      "notablePRs": [
+        {
+          "number": 82558,
+          "title": "feat(insights): add scatter plot chart type to SQL insights",
+          "url": "https://github.com/PostHog/posthog/pull/82558",
+          "filesChanged": 38,
+          "dirsSpread": 6,
+          "additions": 958,
+          "deletions": 65
+        },
+        {
+          "number": 83738,
+          "title": "feat(insights): inline behavioral (performed event) property filter",
+          "url": "https://github.com/PostHog/posthog/pull/83738",
+          "filesChanged": 40,
+          "dirsSpread": 5,
+          "additions": 24468,
+          "deletions": 2326
+        },
+        {
+          "number": 86525,
+          "title": "feat(insights): make donut a trends chart type",
+          "url": "https://github.com/PostHog/posthog/pull/86525",
+          "filesChanged": 31,
+          "dirsSpread": 4,
+          "additions": 163,
+          "deletions": 17
+        },
+        {
+          "number": 83155,
+          "title": "feat(insights): add a line of best fit to SQL scatter plots",
+          "url": "https://github.com/PostHog/posthog/pull/83155",
+          "filesChanged": 20,
+          "dirsSpread": 5,
+          "additions": 247,
+          "deletions": 7
+        },
+        {
+          "number": 90013,
+          "title": "feat(insights): show annotations on SQL charts",
+          "url": "https://github.com/PostHog/posthog/pull/90013",
+          "filesChanged": 22,
+          "dirsSpread": 4,
+          "additions": 211,
+          "deletions": 32
+        }
+      ],
+      "notableReviews": [
+        {
+          "prNumber": 88246,
+          "prTitle": "fix(charts): align tooltip labels and values",
+          "prUrl": "https://github.com/PostHog/posthog/pull/88246",
+          "turnaroundHours": 0.47,
+          "state": "COMMENTED"
+        }
+      ],
+      "activityTimeline": [
+        {
+          "week": "2026-W32",
+          "prsAuthored": 8,
+          "reviewsGiven": 0
+        },
+        {
+          "week": "2026-W33",
+          "prsAuthored": 18,
+          "reviewsGiven": 0
+        },
+        {
+          "week": "2026-W34",
+          "prsAuthored": 13,
+          "reviewsGiven": 0
+        },
+        {
+          "week": "2026-W35",
+          "prsAuthored": 28,
+          "reviewsGiven": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "username": "fuziontech",
+      "displayName": "Engineer 3",
+      "overallScore": 45.59,
+      "dimensions": {
+        "scopeOfInfluence": 0,
+        "reviewAuthority": 35.71,
+        "unblockingPower": 99.38,
+        "prSignificance": 0,
+        "discussionLeadership": 0.94
+      },
+      "dimensionDetails": [
+        {
+          "name": "Scope of Influence",
+          "key": "scopeOfInfluence",
+          "weight": 0.05,
+          "score": 0,
+          "weighted": 0,
+          "subBreakdowns": [
+            {
+              "label": "Top-level directories touched",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "Review Authority",
+          "key": "reviewAuthority",
+          "weight": 0.3,
+          "score": 35.71,
+          "weighted": 10.71,
+          "subBreakdowns": [
+            {
+              "label": "Breadth (distinct authors reviewed)",
+              "value": 14.29
+            },
+            {
+              "label": "Substance (substantive review ratio)",
+              "value": 0
+            },
+            {
+              "label": "Review-to-Author ratio",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "name": "Unblocking Power",
+          "key": "unblockingPower",
+          "weight": 0.35,
+          "score": 99.38,
+          "weighted": 34.78,
+          "subBreakdowns": [
+            {
+              "label": "Review turnaround (inverse, faster=better)",
+              "value": 98.76
+            },
+            {
+              "label": "Merged PRs reviewed",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "name": "PR Significance",
+          "key": "prSignificance",
+          "weight": 0.2,
+          "score": 0,
+          "weighted": 0,
+          "subBreakdowns": [
+            {
+              "label": "Cross-directory scope",
+              "value": 0
+            },
+            {
+              "label": "Merge rate",
+              "value": 0
+            },
+            {
+              "label": "Work type diversity",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "Discussion Leadership",
+          "key": "discussionLeadership",
+          "weight": 0.1,
+          "score": 0.94,
+          "weighted": 0.09,
+          "subBreakdowns": [
+            {
+              "label": "Issue comments",
+              "value": 0
+            },
+            {
+              "label": "PR discussion",
+              "value": 3.13
+            },
+            {
+              "label": "Issues closed",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "notablePRs": [],
+      "notableReviews": [
+        {
+          "prNumber": 86897,
+          "prTitle": "fix(data-warehouse): reassure users tables can be changed after setup",
+          "prUrl": "https://github.com/PostHog/posthog/pull/86897",
+          "turnaroundHours": 0.03,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 81927,
+          "prTitle": "feat(data-warehouse): point to destinations when no source matches",
+          "prUrl": "https://github.com/PostHog/posthog/pull/81927",
+          "turnaroundHours": 0.03,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 89456,
+          "prTitle": "fix(data-warehouse): correct webhook step copy to not contradict the wizard's own gating",
+          "prUrl": "https://github.com/PostHog/posthog/pull/89456",
+          "turnaroundHours": 0.04,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 85216,
+          "prTitle": "fix(data-warehouse): flag empty table name or path in the custom source builder",
+          "prUrl": "https://github.com/PostHog/posthog/pull/85216",
+          "turnaroundHours": 0.04,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 83551,
+          "prTitle": "fix(data-warehouse): size the source-icon loading placeholder",
+          "prUrl": "https://github.com/PostHog/posthog/pull/83551",
+          "turnaroundHours": 0.04,
+          "state": "APPROVED"
+        }
+      ],
+      "activityTimeline": [
+        {
+          "week": "2026-W32",
+          "prsAuthored": 0,
+          "reviewsGiven": 22
+        },
+        {
+          "week": "2026-W33",
+          "prsAuthored": 0,
+          "reviewsGiven": 32
+        },
+        {
+          "week": "2026-W34",
+          "prsAuthored": 0,
+          "reviewsGiven": 58
+        },
+        {
+          "week": "2026-W35",
+          "prsAuthored": 0,
+          "reviewsGiven": 29
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "username": "puemos",
+      "displayName": "Engineer 4",
+      "overallScore": 45.03,
+      "dimensions": {
+        "scopeOfInfluence": 28.57,
+        "reviewAuthority": 31.67,
+        "unblockingPower": 66.29,
+        "prSignificance": 50.73,
+        "discussionLeadership": 7.5
+      },
+      "dimensionDetails": [
+        {
+          "name": "Scope of Influence",
+          "key": "scopeOfInfluence",
+          "weight": 0.05,
+          "score": 28.57,
+          "weighted": 1.43,
+          "subBreakdowns": [
+            {
+              "label": "Top-level directories touched",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "name": "Review Authority",
+          "key": "reviewAuthority",
+          "weight": 0.3,
+          "score": 31.67,
+          "weighted": 9.5,
+          "subBreakdowns": [
+            {
+              "label": "Breadth (distinct authors reviewed)",
+              "value": 57.14
+            },
+            {
+              "label": "Substance (substantive review ratio)",
+              "value": 6.98
+            },
+            {
+              "label": "Review-to-Author ratio",
+              "value": 22.4
+            }
+          ]
+        },
+        {
+          "name": "Unblocking Power",
+          "key": "unblockingPower",
+          "weight": 0.35,
+          "score": 66.29,
+          "weighted": 23.2,
+          "subBreakdowns": [
+            {
+              "label": "Review turnaround (inverse, faster=better)",
+              "value": 99.76
+            },
+            {
+              "label": "Merged PRs reviewed",
+              "value": 32.82
+            }
+          ]
+        },
+        {
+          "name": "PR Significance",
+          "key": "prSignificance",
+          "weight": 0.2,
+          "score": 50.73,
+          "weighted": 10.15,
+          "subBreakdowns": [
+            {
+              "label": "Cross-directory scope",
+              "value": 43.25
+            },
+            {
+              "label": "Merge rate",
+              "value": 67.13
+            },
+            {
+              "label": "Work type diversity",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "name": "Discussion Leadership",
+          "key": "discussionLeadership",
+          "weight": 0.1,
+          "score": 7.5,
+          "weighted": 0.75,
+          "subBreakdowns": [
+            {
+              "label": "Issue comments",
+              "value": 0
+            },
+            {
+              "label": "PR discussion",
+              "value": 25
+            },
+            {
+              "label": "Issues closed",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "notablePRs": [
+        {
+          "number": 78688,
+          "title": "feat(comments): backend for anchored task and canvas comments",
+          "url": "https://github.com/PostHog/posthog/pull/78688",
+          "filesChanged": 56,
+          "dirsSpread": 5,
+          "additions": 3753,
+          "deletions": 98
+        },
+        {
+          "number": 80869,
+          "title": "fix(tasks): inherit task authorization from spaces",
+          "url": "https://github.com/PostHog/posthog/pull/80869",
+          "filesChanged": 40,
+          "dirsSpread": 4,
+          "additions": 1217,
+          "deletions": 287
+        },
+        {
+          "number": 87027,
+          "title": "feat(tasks): flag-gated run analysis via posthog-funded tasks",
+          "url": "https://github.com/PostHog/posthog/pull/87027",
+          "filesChanged": 38,
+          "dirsSpread": 4,
+          "additions": 3235,
+          "deletions": 25
+        },
+        {
+          "number": 78691,
+          "title": "feat(comments): canvas commenting and historical version replay",
+          "url": "https://github.com/PostHog/posthog/pull/78691",
+          "filesChanged": 100,
+          "dirsSpread": 1,
+          "additions": 8915,
+          "deletions": 459
+        },
+        {
+          "number": 84646,
+          "title": "feat(desktop): hand off a task to a colleague from the row menus",
+          "url": "https://github.com/PostHog/posthog/pull/84646",
+          "filesChanged": 48,
+          "dirsSpread": 2,
+          "additions": 2051,
+          "deletions": 207
+        }
+      ],
+      "notableReviews": [
+        {
+          "prNumber": 85316,
+          "prTitle": "feat(tasks): capture agent state at termination",
+          "prUrl": "https://github.com/PostHog/posthog/pull/85316",
+          "turnaroundHours": 0.04,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 79443,
+          "prTitle": "fix(tasks): start multi-repo agents after primary clone",
+          "prUrl": "https://github.com/PostHog/posthog/pull/79443",
+          "turnaroundHours": 0.04,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 88531,
+          "prTitle": "fix(desktop): preserve onboarding concierge title",
+          "prUrl": "https://github.com/PostHog/posthog/pull/88531",
+          "turnaroundHours": 0.1,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 84601,
+          "prTitle": "chore(tasks): bump sandbox gh to 2.97.0",
+          "prUrl": "https://github.com/PostHog/posthog/pull/84601",
+          "turnaroundHours": 0.1,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 81485,
+          "prTitle": "feat(desktop): show a development badge on the mission control overlay",
+          "prUrl": "https://github.com/PostHog/posthog/pull/81485",
+          "turnaroundHours": 0.13,
+          "state": "APPROVED"
+        }
+      ],
+      "activityTimeline": [
+        {
+          "week": "2026-W32",
+          "prsAuthored": 21,
+          "reviewsGiven": 9
+        },
+        {
+          "week": "2026-W33",
+          "prsAuthored": 35,
+          "reviewsGiven": 17
+        },
+        {
+          "week": "2026-W34",
+          "prsAuthored": 24,
+          "reviewsGiven": 15
+        },
+        {
+          "week": "2026-W35",
+          "prsAuthored": 16,
+          "reviewsGiven": 3
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "username": "gantoine",
+      "displayName": "Engineer 5",
+      "overallScore": 44.71,
+      "dimensions": {
+        "scopeOfInfluence": 0,
+        "reviewAuthority": 72.2,
+        "unblockingPower": 64.52,
+        "prSignificance": 0,
+        "discussionLeadership": 4.72
+      },
+      "dimensionDetails": [
+        {
+          "name": "Scope of Influence",
+          "key": "scopeOfInfluence",
+          "weight": 0.05,
+          "score": 0,
+          "weighted": 0,
+          "subBreakdowns": [
+            {
+              "label": "Top-level directories touched",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "Review Authority",
+          "key": "reviewAuthority",
+          "weight": 0.3,
+          "score": 72.2,
+          "weighted": 21.66,
+          "subBreakdowns": [
+            {
+              "label": "Breadth (distinct authors reviewed)",
+              "value": 100
+            },
+            {
+              "label": "Substance (substantive review ratio)",
+              "value": 7.32
+            },
+            {
+              "label": "Review-to-Author ratio",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "name": "Unblocking Power",
+          "key": "unblockingPower",
+          "weight": 0.35,
+          "score": 64.52,
+          "weighted": 22.58,
+          "subBreakdowns": [
+            {
+              "label": "Review turnaround (inverse, faster=better)",
+              "value": 97.73
+            },
+            {
+              "label": "Merged PRs reviewed",
+              "value": 31.3
+            }
+          ]
+        },
+        {
+          "name": "PR Significance",
+          "key": "prSignificance",
+          "weight": 0.2,
+          "score": 0,
+          "weighted": 0,
+          "subBreakdowns": [
+            {
+              "label": "Cross-directory scope",
+              "value": 0
+            },
+            {
+              "label": "Merge rate",
+              "value": 0
+            },
+            {
+              "label": "Work type diversity",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "Discussion Leadership",
+          "key": "discussionLeadership",
+          "weight": 0.1,
+          "score": 4.72,
+          "weighted": 0.47,
+          "subBreakdowns": [
+            {
+              "label": "Issue comments",
+              "value": 4.76
+            },
+            {
+              "label": "PR discussion",
+              "value": 9.38
+            },
+            {
+              "label": "Issues closed",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "notablePRs": [],
+      "notableReviews": [
+        {
+          "prNumber": 89294,
+          "prTitle": "chore(ci): install protoc for the MCP CI rust build",
+          "prUrl": "https://github.com/PostHog/posthog/pull/89294",
+          "turnaroundHours": 0.01,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 89479,
+          "prTitle": "fix(visual-review): stop a story deletion failing every batched PR",
+          "prUrl": "https://github.com/PostHog/posthog/pull/89479",
+          "turnaroundHours": 0.05,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 88594,
+          "prTitle": "feat(loops): expose sandbox environment selection",
+          "prUrl": "https://github.com/PostHog/posthog/pull/88594",
+          "turnaroundHours": 0.23,
+          "state": "APPROVED"
+        },
+        {
+          "prNumber": 86383,
+          "prTitle": "fix(stamphog): freeze the clock in the moved engine test",
+          "prUrl": "https://github.com/PostHog/posthog/pull/86383",
+          "turnaroundHours": 0.37,
+          "state": "COMMENTED"
+        },
+        {
+          "prNumber": 90035,
+          "prTitle": "fix(visual-review): publish a run's settled counts with its completed status",
+          "prUrl": "https://github.com/PostHog/posthog/pull/90035",
+          "turnaroundHours": 0.73,
+          "state": "APPROVED"
+        }
+      ],
+      "activityTimeline": [
+        {
+          "week": "2026-W32",
+          "prsAuthored": 0,
+          "reviewsGiven": 3
+        },
+        {
+          "week": "2026-W33",
+          "prsAuthored": 0,
+          "reviewsGiven": 1
+        },
+        {
+          "week": "2026-W34",
+          "prsAuthored": 0,
+          "reviewsGiven": 21
+        },
+        {
+          "week": "2026-W35",
+          "prsAuthored": 0,
+          "reviewsGiven": 17
+        }
+      ]
+    }
+  ]
+}

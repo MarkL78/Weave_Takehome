@@ -1,0 +1,5313 @@
+{
+  "issues": [
+    {
+      "number": 91268,
+      "title": "feat(signals): pipeline audience targets for steering notes",
+      "url": "https://github.com/PostHog/posthog/issues/91268",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-29T23:41:12Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 80882,
+      "title": "Feature request: Rokt Ads source",
+      "url": "https://github.com/PostHog/posthog/issues/80882",
+      "author": "jakesciotto",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-29T21:29:15Z",
+      "labels": [
+        "enhancement",
+        "team/data-warehouse",
+        "feature/pipeline-sources"
+      ]
+    },
+    {
+      "number": 91270,
+      "title": "feat(tasks): implementation runs read steering notes and fleet memory",
+      "url": "https://github.com/PostHog/posthog/issues/91270",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-29T20:06:45Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 91285,
+      "title": "feat(signals): let users add a steering note when creating a PR from an inbox report",
+      "url": "https://github.com/PostHog/posthog/issues/91285",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-29T18:56:55Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 83942,
+      "title": "feat(warehouse-sources): move the Apple Search Ads source to the Apple Ads Platform API before it ships",
+      "url": "https://github.com/PostHog/posthog/issues/83942",
+      "author": "jakesciotto",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-29T07:56:23Z",
+      "labels": []
+    },
+    {
+      "number": 69150,
+      "title": "Feature Request:  Email based member access to usage and spend tabs in billing",
+      "url": "https://github.com/PostHog/posthog/issues/69150",
+      "author": "lukebaber-posthog",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-20T09:48:49Z",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 88013,
+      "title": "Decide the repair contract for membership transitions lost between state commit and produce",
+      "url": "https://github.com/PostHog/posthog/issues/88013",
+      "author": "matheus-vb",
+      "closedBy": "matheus-vb",
+      "closedAt": "2026-08-28T17:49:00Z",
+      "labels": [
+        "feature/cohorts",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 85619,
+      "title": "fix(mcp-store): Datadog MCP OAuth fails for EU-hosted accounts (mismatching redirect URI)",
+      "url": "https://github.com/PostHog/posthog/issues/85619",
+      "author": "jericopingul",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-27T11:14:51Z",
+      "labels": []
+    },
+    {
+      "number": 90271,
+      "title": "Dashboards: tile density / layout compaction saves rejected for all non-staff users — customization flag evaluated against the customer's own project",
+      "url": "https://github.com/PostHog/posthog/issues/90271",
+      "author": "alinph",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-28T14:58:58Z",
+      "labels": [
+        "bug",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 88014,
+      "title": "Build mark and sweep deletion in the CDP cohort membership consumer",
+      "url": "https://github.com/PostHog/posthog/issues/88014",
+      "author": "matheus-vb",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-28T14:53:33Z",
+      "labels": [
+        "feature/cohorts",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 88011,
+      "title": "Settle origin attribution for membership messages and clean up the processor's shadow naming",
+      "url": "https://github.com/PostHog/posthog/issues/88011",
+      "author": "matheus-vb",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-28T14:53:30Z",
+      "labels": [
+        "feature/cohorts",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 88926,
+      "title": "Warehouse-backed property definitions can miss provenance on first sync",
+      "url": "https://github.com/PostHog/posthog/issues/88926",
+      "author": "TorinAsakura",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-28T10:33:15Z",
+      "labels": []
+    },
+    {
+      "number": 89935,
+      "title": "Backfill existing insight-alert Slack destinations so the alert chart image actually reaches them",
+      "url": "https://github.com/PostHog/posthog/issues/89935",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-28T07:51:11Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 90299,
+      "title": "feat(signals): thread scout reports by heading when the Slack thread toggle is on",
+      "url": "https://github.com/PostHog/posthog/issues/90299",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-28T06:31:03Z",
+      "labels": [
+        "feature/signals",
+        "self-driving"
+      ]
+    },
+    {
+      "number": 68907,
+      "title": "[customer analytics] Only the account name toggles row expansion; make the whole row clickable",
+      "url": "https://github.com/PostHog/posthog/issues/68907",
+      "author": "posthog[bot]",
+      "closedBy": "arthurdedeus",
+      "closedAt": "2026-08-27T21:38:19Z",
+      "labels": [
+        "feature/customer-analytics"
+      ]
+    },
+    {
+      "number": 90191,
+      "title": "SQLBoxPlot EditOptions story raises an unhandled error event in webkit",
+      "url": "https://github.com/PostHog/posthog/issues/90191",
+      "author": "gantoine",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-27T21:36:04Z",
+      "labels": []
+    },
+    {
+      "number": 62146,
+      "title": "Allow soft-deleting a feature flag linked to an experiment without deleting the experiment",
+      "url": "https://github.com/PostHog/posthog/issues/62146",
+      "author": "andehen",
+      "closedBy": "gustavohstrassburger",
+      "closedAt": "2026-08-27T19:53:19Z",
+      "labels": [
+        "enhancement",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 30610,
+      "title": "Ability to archive a feature flag",
+      "url": "https://github.com/PostHog/posthog/issues/30610",
+      "author": "darkopia",
+      "closedBy": "gustavohstrassburger",
+      "closedAt": "2026-08-27T19:50:36Z",
+      "labels": [
+        "enhancement",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 88818,
+      "title": "feat(warehouse-sources): Google Play Console source cannot reach installs, ratings, or reviews",
+      "url": "https://github.com/PostHog/posthog/issues/88818",
+      "author": "jakesciotto",
+      "closedBy": "jakesciotto",
+      "closedAt": "2026-08-27T17:09:57Z",
+      "labels": []
+    },
+    {
+      "number": 85749,
+      "title": "fix(warehouse-sources): App Store Connect analytics tables report a permission error naming roles the key already holds",
+      "url": "https://github.com/PostHog/posthog/issues/85749",
+      "author": "jakesciotto",
+      "closedBy": "jakesciotto",
+      "closedAt": "2026-08-27T17:09:56Z",
+      "labels": []
+    },
+    {
+      "number": 88816,
+      "title": "fix(warehouse-sources): Google Play Console error_counts fails with a 400 and the source discards Google's reason",
+      "url": "https://github.com/PostHog/posthog/issues/88816",
+      "author": "jakesciotto",
+      "closedBy": "jakesciotto",
+      "closedAt": "2026-08-27T17:09:55Z",
+      "labels": []
+    },
+    {
+      "number": 85750,
+      "title": "fix(warehouse-sources): Google Play Console reports one unavailable metric set as a service account permission failure",
+      "url": "https://github.com/PostHog/posthog/issues/85750",
+      "author": "jakesciotto",
+      "closedBy": "jakesciotto",
+      "closedAt": "2026-08-27T17:09:53Z",
+      "labels": []
+    },
+    {
+      "number": 90270,
+      "title": "Dashboards: scrolling mounts/unmounts each tile's viz and kea logic, freezing scroll and leaving blank tiles on slower machines",
+      "url": "https://github.com/PostHog/posthog/issues/90270",
+      "author": "alinph",
+      "closedBy": "alinph",
+      "closedAt": "2026-08-27T15:59:23Z",
+      "labels": [
+        "feature/dashboards",
+        "performance",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 89826,
+      "title": "Allow publishing to the skills store from the single-skill view, not just the list",
+      "url": "https://github.com/PostHog/posthog/issues/89826",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-27T08:44:04Z",
+      "labels": [
+        "enhancement",
+        "self-driving"
+      ]
+    },
+    {
+      "number": 86046,
+      "title": "Bug report: error tracking - sourcemap inject breaks Angular service worker updates",
+      "url": "https://github.com/PostHog/posthog/issues/86046",
+      "author": "slshults",
+      "closedBy": "ablaszkiewicz",
+      "closedAt": "2026-08-26T17:15:44Z",
+      "labels": [
+        "bug",
+        "feature/error-tracking",
+        "team/error-tracking",
+        "feature/libraries",
+        "feature/source-maps"
+      ]
+    },
+    {
+      "number": 62806,
+      "title": "Feature Request: Enhanced Real-Time Activity Visualization",
+      "url": "https://github.com/PostHog/posthog/issues/62806",
+      "author": "HaynesPostHog",
+      "closedBy": "lricoy",
+      "closedAt": "2026-08-27T01:40:26Z",
+      "labels": [
+        "enhancement",
+        "team/web-analytics"
+      ]
+    },
+    {
+      "number": 26000,
+      "title": "Web Analytics: \"previous\" is unclear",
+      "url": "https://github.com/PostHog/posthog/issues/26000",
+      "author": "robbie-c",
+      "closedBy": "lricoy",
+      "closedAt": "2026-08-27T01:49:17Z",
+      "labels": [
+        "bug",
+        "team/web-analytics"
+      ]
+    },
+    {
+      "number": 27946,
+      "title": "Should we create a new Channel Type for LLM chat/search and Newsletter sites?",
+      "url": "https://github.com/PostHog/posthog/issues/27946",
+      "author": "robbie-c",
+      "closedBy": "lricoy",
+      "closedAt": "2026-08-27T01:46:28Z",
+      "labels": [
+        "enhancement",
+        "team/web-analytics"
+      ]
+    },
+    {
+      "number": 30875,
+      "title": "Web vitals should be automatically sampled at query time",
+      "url": "https://github.com/PostHog/posthog/issues/30875",
+      "author": "robbie-c",
+      "closedBy": "lricoy",
+      "closedAt": "2026-08-27T01:45:48Z",
+      "labels": [
+        "enhancement",
+        "team/web-analytics"
+      ]
+    },
+    {
+      "number": 45958,
+      "title": "feat: show usernames in sessions tab under activity",
+      "url": "https://github.com/PostHog/posthog/issues/45958",
+      "author": "lricoy",
+      "closedBy": "lricoy",
+      "closedAt": "2026-08-27T01:43:52Z",
+      "labels": [
+        "team/web-analytics"
+      ]
+    },
+    {
+      "number": 60471,
+      "title": "Web Analytics Dashboard Tiles Loop Endlessly When Toggling Filter Internal/Test Users",
+      "url": "https://github.com/PostHog/posthog/issues/60471",
+      "author": "kyleswank",
+      "closedBy": "lricoy",
+      "closedAt": "2026-08-27T01:42:51Z",
+      "labels": [
+        "bug",
+        "team/web-analytics"
+      ]
+    },
+    {
+      "number": 71889,
+      "title": "Web analytics: AI visibility — AI channel, bot analytics, and citations (Clarity AI visibility equivalent)",
+      "url": "https://github.com/PostHog/posthog/issues/71889",
+      "author": "darkopia",
+      "closedBy": "lricoy",
+      "closedAt": "2026-08-27T01:39:24Z",
+      "labels": [
+        "enhancement",
+        "team/web-analytics"
+      ]
+    },
+    {
+      "number": 27487,
+      "title": "Experiments: Graduate data warehouse integration out of beta",
+      "url": "https://github.com/PostHog/posthog/issues/27487",
+      "author": "danielbachhuber",
+      "closedBy": "danielbachhuber",
+      "closedAt": "2026-08-26T19:15:56Z",
+      "labels": [
+        "enhancement",
+        "team/experiments"
+      ]
+    },
+    {
+      "number": 29881,
+      "title": "CRM iteration one",
+      "url": "https://github.com/PostHog/posthog/issues/29881",
+      "author": "danielbachhuber",
+      "closedBy": "danielbachhuber",
+      "closedAt": "2026-08-26T19:14:19Z",
+      "labels": [
+        "team/customer-analytics",
+        "feature/customer-analytics"
+      ]
+    },
+    {
+      "number": 26954,
+      "title": "Easy experiments support for Chargebee or Stripe data warehouse tables",
+      "url": "https://github.com/PostHog/posthog/issues/26954",
+      "author": "danielbachhuber",
+      "closedBy": "danielbachhuber",
+      "closedAt": "2026-08-26T19:13:55Z",
+      "labels": [
+        "enhancement",
+        "team/experiments"
+      ]
+    },
+    {
+      "number": 57021,
+      "title": "Conversation history for accounts",
+      "url": "https://github.com/PostHog/posthog/issues/57021",
+      "author": "arthurdedeus",
+      "closedBy": "arthurdedeus",
+      "closedAt": "2026-08-26T17:19:51Z",
+      "labels": [
+        "feature/customer-analytics"
+      ]
+    },
+    {
+      "number": 76054,
+      "title": "Sync account conversations from Gmail",
+      "url": "https://github.com/PostHog/posthog/issues/76054",
+      "author": "arthurdedeus",
+      "closedBy": "arthurdedeus",
+      "closedAt": "2026-08-26T17:19:40Z",
+      "labels": []
+    },
+    {
+      "number": 43520,
+      "title": "chore(sdks): Normalize handling of feature flag payloads.",
+      "url": "https://github.com/PostHog/posthog/issues/43520",
+      "author": "haacked",
+      "closedBy": "dustinbyrne",
+      "closedAt": "2026-08-26T13:47:43Z",
+      "labels": [
+        "bug",
+        "feature/feature-flags",
+        "team/feature-flags",
+        "feature/libraries"
+      ]
+    },
+    {
+      "number": 76317,
+      "title": "Investigate compaction side-effects: compaction stopping agents or preventing agent work",
+      "url": "https://github.com/PostHog/posthog/issues/76317",
+      "author": "k11kirky",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-26T11:46:39Z",
+      "labels": [
+        "bug",
+        "question",
+        "feature/desktop"
+      ]
+    },
+    {
+      "number": 45009,
+      "title": "Workflow Push Notifications Plan",
+      "url": "https://github.com/PostHog/posthog/issues/45009",
+      "author": "odin-posthog",
+      "closedBy": "dmarchuk",
+      "closedAt": "2026-08-26T10:41:55Z",
+      "labels": [
+        "feature/workflows"
+      ]
+    },
+    {
+      "number": 88966,
+      "title": "Scouts: let an existing scout be switched between live and dry run",
+      "url": "https://github.com/PostHog/posthog/issues/88966",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-26T10:12:25Z",
+      "labels": [
+        "feature/signals",
+        "self-driving"
+      ]
+    },
+    {
+      "number": 2594,
+      "title": "Feature request: Allow querying \"Users who have done $foo in $timerange\"",
+      "url": "https://github.com/PostHog/posthog/issues/2594",
+      "author": "macobo",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-26T10:07:28Z",
+      "labels": [
+        "enhancement",
+        "feature/trends",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 82922,
+      "title": "fix(warehouse-sources): Checkout.com customers and instruments sync zero rows",
+      "url": "https://github.com/PostHog/posthog/issues/82922",
+      "author": "jakesciotto",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-26T04:37:59Z",
+      "labels": []
+    },
+    {
+      "number": 82923,
+      "title": "fix(warehouse-sources): Checkout.com report files with a legacy column set parse to zero rows silently",
+      "url": "https://github.com/PostHog/posthog/issues/82923",
+      "author": "jakesciotto",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-26T04:18:08Z",
+      "labels": []
+    },
+    {
+      "number": 87598,
+      "title": "Bug(MCP Analytics): Tool quality table doesn't scroll and shows fewer tools than the stated count",
+      "url": "https://github.com/PostHog/posthog/issues/87598",
+      "author": "yasmin-xyz",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-25T23:45:18Z",
+      "labels": [
+        "bug",
+        "feature/mcp-analytics",
+        "team/mcp-analytics"
+      ]
+    },
+    {
+      "number": 87477,
+      "title": "Scout scratchpad: optional expires_at so time-boxed memories retire themselves",
+      "url": "https://github.com/PostHog/posthog/issues/87477",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-25T22:56:51Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 87602,
+      "title": "feat(signals): stamp a repo_selection artefact at emit time from repo links in the report",
+      "url": "https://github.com/PostHog/posthog/issues/87602",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-25T22:56:46Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 88417,
+      "title": "feat(signals): \"Set up manually\" escape hatch on the inbox self-driving takeover",
+      "url": "https://github.com/PostHog/posthog/issues/88417",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-25T20:50:22Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 88798,
+      "title": "Review scaling requirements for temporal worker",
+      "url": "https://github.com/PostHog/posthog/issues/88798",
+      "author": "fercgomes",
+      "closedBy": "fercgomes",
+      "closedAt": "2026-08-25T20:37:18Z",
+      "labels": []
+    },
+    {
+      "number": 88682,
+      "title": "fix(inbox): warn when the inbox looks empty because filters are applied",
+      "url": "https://github.com/PostHog/posthog/issues/88682",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-25T20:19:55Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 86655,
+      "title": "Reconcile account Track Rules nightly",
+      "url": "https://github.com/PostHog/posthog/issues/86655",
+      "author": "arthurdedeus",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-25T20:00:05Z",
+      "labels": [
+        "feature/customer-analytics"
+      ]
+    },
+    {
+      "number": 87558,
+      "title": "Put the scouts roster filters in the URL so a filtered view survives a refresh",
+      "url": "https://github.com/PostHog/posthog/issues/87558",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-25T17:15:28Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 87872,
+      "title": "Skills pages: show who owns a skill, and let people change it",
+      "url": "https://github.com/PostHog/posthog/issues/87872",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-25T14:22:00Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 13255,
+      "title": "Screen recording does not work with shadow DOM",
+      "url": "https://github.com/PostHog/posthog/issues/13255",
+      "author": "NathanFlurry",
+      "closedBy": "pauldambra",
+      "closedAt": "2023-09-26T12:32:44Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 27128,
+      "title": "Bug: Compare to previous period 'Last 7 days' has overlapping day",
+      "url": "https://github.com/PostHog/posthog/issues/27128",
+      "author": "abigailbramble",
+      "closedBy": "GeneralistDev",
+      "closedAt": "2026-08-25T11:17:23Z",
+      "labels": [
+        "bug",
+        "team/product-analytics",
+        "feature/insights",
+        "data-integrity"
+      ]
+    },
+    {
+      "number": 88069,
+      "title": "PostHog Desktop: bundled Codex 0.144 crashes parsing mem0 HTTP MCP in ~/.codex/config.toml (-c override too late)",
+      "url": "https://github.com/PostHog/posthog/issues/88069",
+      "author": "VXNCXNX",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-25T05:06:06Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 88009,
+      "title": "Create the cohort_membership_changed topic on the Kafka cluster the cohorts pipeline uses",
+      "url": "https://github.com/PostHog/posthog/issues/88009",
+      "author": "matheus-vb",
+      "closedBy": "matheus-vb",
+      "closedAt": "2026-08-24T21:30:07Z",
+      "labels": [
+        "feature/cohorts",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 21390,
+      "title": "Renaming Series isn't reflected in places",
+      "url": "https://github.com/PostHog/posthog/issues/21390",
+      "author": "w4ngel",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-24T20:08:01Z",
+      "labels": [
+        "bug",
+        "feature/trends",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 87492,
+      "title": "Inbox: suggested \"Ask AI\" prompts on signal reports (scout-authored first)",
+      "url": "https://github.com/PostHog/posthog/issues/87492",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-24T19:38:23Z",
+      "labels": [
+        "enhancement",
+        "self-driving"
+      ]
+    },
+    {
+      "number": 33866,
+      "title": "Surveys responses are not processed if the organization is at the product analytics events limit",
+      "url": "https://github.com/PostHog/posthog/issues/33866",
+      "author": "lucasheriques",
+      "closedBy": "marandaneto",
+      "closedAt": "2025-08-05T13:27:20Z",
+      "labels": [
+        "bug",
+        "feature/ingestion",
+        "feature/surveys"
+      ]
+    },
+    {
+      "number": 86654,
+      "title": "Configure, preview, and manually apply account Track Rules",
+      "url": "https://github.com/PostHog/posthog/issues/86654",
+      "author": "arthurdedeus",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-24T17:28:05Z",
+      "labels": [
+        "feature/customer-analytics"
+      ]
+    },
+    {
+      "number": 87878,
+      "title": "fix(tasks): babysit_pr should never merge a PR on the user's behalf",
+      "url": "https://github.com/PostHog/posthog/issues/87878",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-24T16:30:00Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 87562,
+      "title": "Desktop app requests an invite-only token after logging in",
+      "url": "https://github.com/PostHog/posthog/issues/87562",
+      "author": "kubo6472",
+      "closedBy": "kubo6472",
+      "closedAt": "2026-08-24T15:49:46Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 87550,
+      "title": "Remove the \"N need you\" stat from the scouts roster header",
+      "url": "https://github.com/PostHog/posthog/issues/87550",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-24T14:24:20Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 87775,
+      "title": "Support iOS release metadata from Info.plist in posthog-cli",
+      "url": "https://github.com/PostHog/posthog/issues/87775",
+      "author": "marandaneto",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-24T13:44:04Z",
+      "labels": [
+        "feature/error-tracking",
+        "team/error-tracking",
+        "feature/libraries"
+      ]
+    },
+    {
+      "number": 78117,
+      "title": "Sprint August 10 to August 21",
+      "url": "https://github.com/PostHog/posthog/issues/78117",
+      "author": "langesven",
+      "closedBy": "marandaneto",
+      "closedAt": "2026-08-24T11:10:37Z",
+      "labels": [
+        "sprint"
+      ]
+    },
+    {
+      "number": 55930,
+      "title": "Bug: Insight with breakdown by cohort breaks when limit < cohorts selected",
+      "url": "https://github.com/PostHog/posthog/issues/55930",
+      "author": "xljones",
+      "closedBy": "gesh",
+      "closedAt": "2026-04-24T06:51:16Z",
+      "labels": [
+        "bug",
+        "team/product-analytics",
+        "feature/insights"
+      ]
+    },
+    {
+      "number": 42382,
+      "title": "Feature Request: Allow lower alert check times",
+      "url": "https://github.com/PostHog/posthog/issues/42382",
+      "author": "darkopia",
+      "closedBy": "vdekrijger",
+      "closedAt": "2026-06-22T07:55:34Z",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 36596,
+      "title": "Bug: Pressing enter whilst renaming an insight from the insights list updates the insight name, but does not close the modal",
+      "url": "https://github.com/PostHog/posthog/issues/36596",
+      "author": "HaynesPostHog",
+      "closedBy": "zlwaterfield",
+      "closedAt": "2025-10-02T19:14:33Z",
+      "labels": [
+        "bug",
+        "team/product-analytics",
+        "feature/insights"
+      ]
+    },
+    {
+      "number": 36530,
+      "title": "Feature Request: Preserve survey options when switching between compatible question types",
+      "url": "https://github.com/PostHog/posthog/issues/36530",
+      "author": "HaynesPostHog",
+      "closedBy": "lucasheriques",
+      "closedAt": "2025-09-03T04:04:37Z",
+      "labels": [
+        "enhancement",
+        "feature/surveys"
+      ]
+    },
+    {
+      "number": 36514,
+      "title": "Feature request: Add 'first-ever occurrence' mode to retention insights",
+      "url": "https://github.com/PostHog/posthog/issues/36514",
+      "author": "zlwaterfield",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2025-08-25T08:59:44Z",
+      "labels": [
+        "enhancement",
+        "feature/retention",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 87587,
+      "title": "Scouts tab: make the roster readable on mobile widths without changing desktop",
+      "url": "https://github.com/PostHog/posthog/issues/87587",
+      "author": "andrewm4894",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-23T23:13:00Z",
+      "labels": [
+        "self-driving"
+      ]
+    },
+    {
+      "number": 82927,
+      "title": "feat(warehouse-sources): add the four App Store Connect Detailed report variants",
+      "url": "https://github.com/PostHog/posthog/issues/82927",
+      "author": "jakesciotto",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-22T16:37:06Z",
+      "labels": []
+    },
+    {
+      "number": 71101,
+      "title": "500 Internal Server Error when creating ticket via POST /api/projects/:project_id/conversations/tickets/",
+      "url": "https://github.com/PostHog/posthog/issues/71101",
+      "author": "yueum",
+      "closedBy": "slshults",
+      "closedAt": "2026-07-23T17:12:44Z",
+      "labels": [
+        "bug",
+        "team/conversations",
+        "feature/conversations"
+      ]
+    },
+    {
+      "number": 70852,
+      "title": "Bug report: experiments - stale full-array save silently drops metrics",
+      "url": "https://github.com/PostHog/posthog/issues/70852",
+      "author": "slshults",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-03T18:44:01Z",
+      "labels": [
+        "bug",
+        "team/experiments",
+        "feature/experiments"
+      ]
+    },
+    {
+      "number": 69111,
+      "title": "Bug Report: Unable to rename project",
+      "url": "https://github.com/PostHog/posthog/issues/69111",
+      "author": "phillram",
+      "closedBy": "luke-belton",
+      "closedAt": "2026-07-09T10:23:47Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 68543,
+      "title": "Feature Request(Actions): Support multiple values for screen name 'matches exactly'",
+      "url": "https://github.com/PostHog/posthog/issues/68543",
+      "author": "luke-belton",
+      "closedBy": "MattPua",
+      "closedAt": "2026-07-07T20:35:49Z",
+      "labels": [
+        "enhancement",
+        "feature/actions",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 68252,
+      "title": "bug(Inbox) PR limit isn't enforced where PRs are created — signals auto-start has no quota check",
+      "url": "https://github.com/PostHog/posthog/issues/68252",
+      "author": "christiaan-ph",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-04T21:43:44Z",
+      "labels": [
+        "bug",
+        "feature/signals"
+      ]
+    },
+    {
+      "number": 67942,
+      "title": "Bug Report: The conversion window limit field in experiment metrics always resets to 1 when clearing the field",
+      "url": "https://github.com/PostHog/posthog/issues/67942",
+      "author": "phillram",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-07-29T18:29:41Z",
+      "labels": [
+        "bug",
+        "team/experiments"
+      ]
+    },
+    {
+      "number": 67928,
+      "title": "Feature Request: Allow custom key values to be set in feature flag match conditions",
+      "url": "https://github.com/PostHog/posthog/issues/67928",
+      "author": "phillram",
+      "closedBy": "haacked",
+      "closedAt": "2026-07-13T16:44:25Z",
+      "labels": [
+        "enhancement",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 67175,
+      "title": "Bug Report: /events API endpoint returns project timestamps instead of UTC",
+      "url": "https://github.com/PostHog/posthog/issues/67175",
+      "author": "phillram",
+      "closedBy": "sampennington",
+      "closedAt": "2026-07-17T09:44:01Z",
+      "labels": [
+        "bug",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 66380,
+      "title": "Workflows: live editing (draft → test → publish) and revision history",
+      "url": "https://github.com/PostHog/posthog/issues/66380",
+      "author": "mayteio",
+      "closedBy": "mayteio",
+      "closedAt": "2026-07-27T16:04:26Z",
+      "labels": []
+    },
+    {
+      "number": 65957,
+      "title": "Bug report: endpoints - failures drop the underlying query error detail",
+      "url": "https://github.com/PostHog/posthog/issues/65957",
+      "author": "slshults",
+      "closedBy": "sakce",
+      "closedAt": "2026-07-28T10:32:20Z",
+      "labels": [
+        "bug",
+        "feature/data-modeling",
+        "feature/endpoints",
+        "team/data-modeling"
+      ]
+    },
+    {
+      "number": 65303,
+      "title": "Bug report: cohorts - static cohort from results of persons search adds everyone to cohort",
+      "url": "https://github.com/PostHog/posthog/issues/65303",
+      "author": "slshults",
+      "closedBy": "gustavohstrassburger",
+      "closedAt": "2026-07-01T20:16:20Z",
+      "labels": [
+        "bug",
+        "feature/cohorts",
+        "team/feature-flags",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 64423,
+      "title": "Bug Report: Columns in the cohorts table reset upon page load",
+      "url": "https://github.com/PostHog/posthog/issues/64423",
+      "author": "phillram",
+      "closedBy": "gustavohstrassburger",
+      "closedAt": "2026-07-02T14:14:07Z",
+      "labels": [
+        "bug",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 64324,
+      "title": "Feature Request: colour coded replay event pills",
+      "url": "https://github.com/PostHog/posthog/issues/64324",
+      "author": "clr182",
+      "closedBy": "arnohillen",
+      "closedAt": "2026-07-27T21:34:25Z",
+      "labels": [
+        "enhancement",
+        "feature/replay"
+      ]
+    },
+    {
+      "number": 64164,
+      "title": "Bug report: revenuecat source - events sync fails on decimal price values",
+      "url": "https://github.com/PostHog/posthog/issues/64164",
+      "author": "slshults",
+      "closedBy": "luke-belton",
+      "closedAt": "2026-07-15T11:26:59Z",
+      "labels": [
+        "bug",
+        "team/data-warehouse",
+        "feature/pipelines",
+        "feature/pipeline-sources"
+      ]
+    },
+    {
+      "number": 63662,
+      "title": "Bug Report: \"Default Release Conditions\" project setting is not being applied to newly created feature flags",
+      "url": "https://github.com/PostHog/posthog/issues/63662",
+      "author": "phillram",
+      "closedBy": "gustavohstrassburger",
+      "closedAt": "2026-06-29T21:46:28Z",
+      "labels": [
+        "bug",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 63155,
+      "title": "Bug Report: Feature Flag \"Projects\" tab only shows flags in the active project",
+      "url": "https://github.com/PostHog/posthog/issues/63155",
+      "author": "phillram",
+      "closedBy": "gustavohstrassburger",
+      "closedAt": "2026-06-24T16:45:06Z",
+      "labels": [
+        "bug",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 62801,
+      "title": "Bug Report: Experiment quick select only selects & displays buttons for loaded shared metrics",
+      "url": "https://github.com/PostHog/posthog/issues/62801",
+      "author": "phillram",
+      "closedBy": "phillram",
+      "closedAt": "2026-06-11T16:21:42Z",
+      "labels": [
+        "bug",
+        "team/experiments"
+      ]
+    },
+    {
+      "number": 61782,
+      "title": "Bug report: Trends - 'hide weekend data' zeroes out the current in-progress week",
+      "url": "https://github.com/PostHog/posthog/issues/61782",
+      "author": "slshults",
+      "closedBy": "sampennington",
+      "closedAt": "2026-07-07T20:32:17Z",
+      "labels": [
+        "bug",
+        "feature/trends",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 61726,
+      "title": "Feature request: dashboards - auto-refreshing AI-written summary of data",
+      "url": "https://github.com/PostHog/posthog/issues/61726",
+      "author": "slshults",
+      "closedBy": "MattPua",
+      "closedAt": "2026-06-11T13:58:36Z",
+      "labels": [
+        "feature/dashboards",
+        "team/product-analytics",
+        "feature/posthog-ai",
+        "team/analytics-platform",
+        "team/posthog-ai"
+      ]
+    },
+    {
+      "number": 61385,
+      "title": "Bug(phai): Agent failed to find relevant billing information and/or docs while answering user's question about potential charges",
+      "url": "https://github.com/PostHog/posthog/issues/61385",
+      "author": "cvolzer3",
+      "closedBy": "cvolzer3",
+      "closedAt": "2026-06-03T15:39:33Z",
+      "labels": [
+        "bug",
+        "team/posthog-ai"
+      ]
+    },
+    {
+      "number": 61030,
+      "title": "Bug report: trends - goal lines not rendering on line chart insights",
+      "url": "https://github.com/PostHog/posthog/issues/61030",
+      "author": "slshults",
+      "closedBy": "sampennington",
+      "closedAt": "2026-06-02T08:31:25Z",
+      "labels": [
+        "bug",
+        "feature/trends",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 61021,
+      "title": "Bug report: funnels - path cleaning toggle on breakdown is ignored",
+      "url": "https://github.com/PostHog/posthog/issues/61021",
+      "author": "slshults",
+      "closedBy": "sampennington",
+      "closedAt": "2026-06-08T12:27:20Z",
+      "labels": [
+        "bug",
+        "feature/funnels",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 60375,
+      "title": "Bug Report: Hedgehog mode breaks the toolbar",
+      "url": "https://github.com/PostHog/posthog/issues/60375",
+      "author": "phillram",
+      "closedBy": "phillram",
+      "closedAt": "2026-06-26T22:38:42Z",
+      "labels": [
+        "bug",
+        "team/growth"
+      ]
+    },
+    {
+      "number": 58311,
+      "title": "Feature Request: Live viewing for sessions",
+      "url": "https://github.com/PostHog/posthog/issues/58311",
+      "author": "fasyy612",
+      "closedBy": "fasyy612",
+      "closedAt": "2026-05-12T13:29:57Z",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 58066,
+      "title": "Feature Request: Pie chart insights should have an option to display both percentage and absolute numbers",
+      "url": "https://github.com/PostHog/posthog/issues/58066",
+      "author": "phillram",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-11T11:16:53Z",
+      "labels": [
+        "enhancement",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 58017,
+      "title": "Bug report: session recording: rrweb observers not stopped during opt_out_capturing with cookieless_mode \"on_reject\"",
+      "url": "https://github.com/PostHog/posthog/issues/58017",
+      "author": "slshults",
+      "closedBy": "marandaneto",
+      "closedAt": "2026-05-11T21:29:27Z",
+      "labels": [
+        "bug",
+        "feature/replay",
+        "feature/libraries",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 57572,
+      "title": "Bug Report: Unable to set \"not in cohort\" in feature flag UI",
+      "url": "https://github.com/PostHog/posthog/issues/57572",
+      "author": "phillram",
+      "closedBy": "haacked",
+      "closedAt": "2026-06-09T15:19:51Z",
+      "labels": [
+        "bug",
+        "feature/cohorts",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 57340,
+      "title": "Bug report: llm analytics - evaluations scene crashes with TypeError on undefined '.toFixed()'",
+      "url": "https://github.com/PostHog/posthog/issues/57340",
+      "author": "slshults",
+      "closedBy": "Radu-Raicea",
+      "closedAt": "2026-05-05T14:39:42Z",
+      "labels": [
+        "bug",
+        "team/llm-analytics",
+        "llma/evals",
+        "llm-analytics"
+      ]
+    },
+    {
+      "number": 57043,
+      "title": "Feature Request: Order feature flag schedule by scheduled dates",
+      "url": "https://github.com/PostHog/posthog/issues/57043",
+      "author": "phillram",
+      "closedBy": "haacked",
+      "closedAt": "2026-06-09T01:42:04Z",
+      "labels": [
+        "enhancement",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 56778,
+      "title": "Bug Report: Experiments only show one shared metric",
+      "url": "https://github.com/PostHog/posthog/issues/56778",
+      "author": "phillram",
+      "closedBy": "phillram",
+      "closedAt": "2026-04-29T16:15:54Z",
+      "labels": [
+        "bug",
+        "team/experiments"
+      ]
+    },
+    {
+      "number": 56186,
+      "title": "Feature Request: Support exporting LLM trace data to Google Cloud Pub/Sub",
+      "url": "https://github.com/PostHog/posthog/issues/56186",
+      "author": "christiaan-ph",
+      "closedBy": "christiaan-ph",
+      "closedAt": "2026-05-06T14:51:26Z",
+      "labels": [
+        "enhancement",
+        "team/llm-analytics",
+        "llm-analytics"
+      ]
+    },
+    {
+      "number": 56083,
+      "title": "Feature Request: Ability to remove evaluation context suggestions from feature flag settings page",
+      "url": "https://github.com/PostHog/posthog/issues/56083",
+      "author": "phillram",
+      "closedBy": "gustavohstrassburger",
+      "closedAt": "2026-06-24T16:45:42Z",
+      "labels": [
+        "enhancement",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 55626,
+      "title": "Bug Report: Unable to rename an existing feature flag with the same name as a deleted feature flag",
+      "url": "https://github.com/PostHog/posthog/issues/55626",
+      "author": "phillram",
+      "closedBy": "dmarticus",
+      "closedAt": "2026-04-23T17:23:10Z",
+      "labels": [
+        "bug",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 55562,
+      "title": "Bug report: Recording button on activity page missing when event doesn't match trigger but recording exists",
+      "url": "https://github.com/PostHog/posthog/issues/55562",
+      "author": "slshults",
+      "closedBy": "slshults",
+      "closedAt": "2026-04-21T17:04:01Z",
+      "labels": [
+        "bug",
+        "feature/activity",
+        "team/product-analytics",
+        "feature/replay"
+      ]
+    },
+    {
+      "number": 55535,
+      "title": "Bug: Users see an error card instead of the UI after a frontend deploy, for many parts of the app",
+      "url": "https://github.com/PostHog/posthog/issues/55535",
+      "author": "christiaan-ph",
+      "closedBy": "langesven",
+      "closedAt": "2026-07-09T11:15:45Z",
+      "labels": [
+        "bug",
+        "ux",
+        "ui-ux-improvement"
+      ]
+    },
+    {
+      "number": 55404,
+      "title": "Feature Request: Show a simplified person display name when targeting a feature flag by Distinct ID",
+      "url": "https://github.com/PostHog/posthog/issues/55404",
+      "author": "phillram",
+      "closedBy": "gustavohstrassburger",
+      "closedAt": "2026-06-24T16:45:29Z",
+      "labels": [
+        "enhancement",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 55210,
+      "title": "@posthog/cli ships outdated shrinkwrapped transitive deps with open CVEs (axios, follow-redirects, minimatch, brace-expansion)",
+      "url": "https://github.com/PostHog/posthog/issues/55210",
+      "author": "josh-corich",
+      "closedBy": "marandaneto",
+      "closedAt": "2026-05-22T20:17:01Z",
+      "labels": [
+        "feature/error-tracking",
+        "team/error-tracking",
+        "CLI"
+      ]
+    },
+    {
+      "number": 55156,
+      "title": "Bug Report: Feature flag release conditions fail to match when using Distinct ID",
+      "url": "https://github.com/PostHog/posthog/issues/55156",
+      "author": "phillram",
+      "closedBy": "dmarticus",
+      "closedAt": "2026-04-29T20:12:44Z",
+      "labels": [
+        "bug",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 55078,
+      "title": "Bug: LLM Playground returns HTTP 400 when \"thinking\" is enabled on any model that doesn't support it",
+      "url": "https://github.com/PostHog/posthog/issues/55078",
+      "author": "christiaan-ph",
+      "closedBy": "richardsolomou",
+      "closedAt": "2026-04-23T15:54:02Z",
+      "labels": [
+        "bug",
+        "team/llm-analytics",
+        "llm-analytics"
+      ]
+    },
+    {
+      "number": 70627,
+      "title": "Live viewers & edit history for an analytics dashboard",
+      "url": "https://github.com/PostHog/posthog/issues/70627",
+      "author": "sarthakagrawal927",
+      "closedBy": "sarthakagrawal927",
+      "closedAt": "2026-08-22T10:25:50Z",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 55075,
+      "title": "Add coupon data from Stripe to Stripe source",
+      "url": "https://github.com/PostHog/posthog/issues/55075",
+      "author": "kyleswank",
+      "closedBy": "danielcarletti",
+      "closedAt": "2026-06-02T19:55:09Z",
+      "labels": [
+        "enhancement",
+        "team/data-warehouse"
+      ]
+    },
+    {
+      "number": 55051,
+      "title": "Bug: Cohort names not always visible in publicly shared dashboards/insights",
+      "url": "https://github.com/PostHog/posthog/issues/55051",
+      "author": "luke-belton",
+      "closedBy": "gesh",
+      "closedAt": "2026-04-27T11:10:02Z",
+      "labels": [
+        "bug",
+        "feature/dashboards",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 54979,
+      "title": "Bug Report: Scheduled feature flag changes use local timezone instead of project timezone",
+      "url": "https://github.com/PostHog/posthog/issues/54979",
+      "author": "phillram",
+      "closedBy": "dmarticus",
+      "closedAt": "2026-04-29T20:12:35Z",
+      "labels": [
+        "bug",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 54703,
+      "title": "Bug:",
+      "url": "https://github.com/PostHog/posthog/issues/54703",
+      "author": "xljones",
+      "closedBy": "xljones",
+      "closedAt": "2026-04-15T13:31:57Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 54445,
+      "title": "Feature Request: Allow-list tool calls in the MCP server",
+      "url": "https://github.com/PostHog/posthog/issues/54445",
+      "author": "christiaan-ph",
+      "closedBy": "christiaan-ph",
+      "closedAt": "2026-04-15T09:12:45Z",
+      "labels": [
+        "enhancement",
+        "feature/posthog-ai",
+        "MCP",
+        "feature/mcp",
+        "security",
+        "team/posthog-ai"
+      ]
+    },
+    {
+      "number": 54148,
+      "title": "Bug report: Domain Connect email templates missing DMARC record",
+      "url": "https://github.com/PostHog/posthog/issues/54148",
+      "author": "slshults",
+      "closedBy": "rafaeelaudibert",
+      "closedAt": "2026-06-29T16:29:39Z",
+      "labels": [
+        "bug",
+        "feature/workflows",
+        "team/workflows"
+      ]
+    },
+    {
+      "number": 54077,
+      "title": "Subscriptions: Historical Run data",
+      "url": "https://github.com/PostHog/posthog/issues/54077",
+      "author": "MattPua",
+      "closedBy": "MattPua",
+      "closedAt": "2026-04-16T15:28:49Z",
+      "labels": [
+        "enhancement",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 53788,
+      "title": "Bug Report: Dashboard \"query_variables\" URL parameter is ignored unless an encoded space is included",
+      "url": "https://github.com/PostHog/posthog/issues/53788",
+      "author": "phillram",
+      "closedBy": "MattPua",
+      "closedAt": "2026-04-10T17:12:47Z",
+      "labels": [
+        "bug",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 53585,
+      "title": "Feature Request: optionally include whole day/week/month when grouped by day/week/month",
+      "url": "https://github.com/PostHog/posthog/issues/53585",
+      "author": "xljones",
+      "closedBy": "xljones",
+      "closedAt": "2026-04-07T16:10:49Z",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 53073,
+      "title": "Remote Config Flags Default to 0% rollout",
+      "url": "https://github.com/PostHog/posthog/issues/53073",
+      "author": "kyleswank",
+      "closedBy": "gustavohstrassburger",
+      "closedAt": "2026-04-02T18:24:51Z",
+      "labels": [
+        "bug",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 52920,
+      "title": "Renamed actions aren't reflected in shared metrics",
+      "url": "https://github.com/PostHog/posthog/issues/52920",
+      "author": "kyleswank",
+      "closedBy": "andehen",
+      "closedAt": "2026-04-28T08:09:15Z",
+      "labels": [
+        "bug",
+        "team/experiments",
+        "ux"
+      ]
+    },
+    {
+      "number": 52879,
+      "title": "Bug: Fix replay max height",
+      "url": "https://github.com/PostHog/posthog/issues/52879",
+      "author": "clr182",
+      "closedBy": "clr182",
+      "closedAt": "2026-03-31T14:22:29Z",
+      "labels": [
+        "bug",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 52693,
+      "title": "Bug: RichMarkdownEditor issue when focusing",
+      "url": "https://github.com/PostHog/posthog/issues/52693",
+      "author": "xljones",
+      "closedBy": "xljones",
+      "closedAt": "2026-03-30T15:12:31Z",
+      "labels": [
+        "bug",
+        "feature/dashboards"
+      ]
+    },
+    {
+      "number": 52607,
+      "title": "Weird sort or filtering in the Filter popup when search includes \"latest\"",
+      "url": "https://github.com/PostHog/posthog/issues/52607",
+      "author": "kyleswank",
+      "closedBy": "pauldambra",
+      "closedAt": "2026-04-04T21:02:50Z",
+      "labels": [
+        "enhancement",
+        "feature/property-filters",
+        "team/product-analytics",
+        "Filters",
+        "feature/taxonomic-filters"
+      ]
+    },
+    {
+      "number": 52309,
+      "title": "Bug report: Survey response filter shows \"NaNth question\" instead of \"Question n\"",
+      "url": "https://github.com/PostHog/posthog/issues/52309",
+      "author": "slshults",
+      "closedBy": "lucasheriques",
+      "closedAt": "2026-05-20T22:40:33Z",
+      "labels": [
+        "bug",
+        "feature/workflows",
+        "team/workflows"
+      ]
+    },
+    {
+      "number": 52285,
+      "title": "Feature Request: Use Stripe webhooks for data warehouse source",
+      "url": "https://github.com/PostHog/posthog/issues/52285",
+      "author": "luke-belton",
+      "closedBy": "luke-belton",
+      "closedAt": "2026-04-14T08:51:36Z",
+      "labels": [
+        "enhancement",
+        "team/data-warehouse",
+        "feature/data-warehouse"
+      ]
+    },
+    {
+      "number": 52251,
+      "title": "Bug:",
+      "url": "https://github.com/PostHog/posthog/issues/52251",
+      "author": "clr182",
+      "closedBy": "clr182",
+      "closedAt": "2026-03-25T13:12:50Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 52027,
+      "title": "Feature request: Filter session replay inspector by feature flag name",
+      "url": "https://github.com/PostHog/posthog/issues/52027",
+      "author": "slshults",
+      "closedBy": "TueHaulund",
+      "closedAt": "2026-03-24T09:10:43Z",
+      "labels": [
+        "enhancement",
+        "feature/replay",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 51579,
+      "title": "Bug: test",
+      "url": "https://github.com/PostHog/posthog/issues/51579",
+      "author": "clr182",
+      "closedBy": "clr182",
+      "closedAt": "2026-03-19T10:57:04Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 51314,
+      "title": "Bug: Trend label option selection broken on dashboards",
+      "url": "https://github.com/PostHog/posthog/issues/51314",
+      "author": "clr182",
+      "closedBy": "MattPua",
+      "closedAt": "2026-03-17T22:54:09Z",
+      "labels": [
+        "bug",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 50808,
+      "title": "Feature Request: Add annotations to PostHog MCP",
+      "url": "https://github.com/PostHog/posthog/issues/50808",
+      "author": "christiaan-ph",
+      "closedBy": "VojtechBartos",
+      "closedAt": "2026-03-18T16:36:22Z",
+      "labels": [
+        "enhancement",
+        "feature/annotations",
+        "feature/posthog-ai",
+        "MCP",
+        "AI",
+        "feature/mcp"
+      ]
+    },
+    {
+      "number": 50740,
+      "title": "Cohorts created via the API with a flat`time_value`/`time_interval` structure don't display the match criteria in the UI",
+      "url": "https://github.com/PostHog/posthog/issues/50740",
+      "author": "phillram",
+      "closedBy": "phillram",
+      "closedAt": "2026-07-15T18:25:22Z",
+      "labels": [
+        "bug",
+        "feature/feature-flags"
+      ]
+    },
+    {
+      "number": 50537,
+      "title": "Switching Posthog tabs on the Create New Feature Flag page clears any unsaved details",
+      "url": "https://github.com/PostHog/posthog/issues/50537",
+      "author": "phillram",
+      "closedBy": "adamleithp",
+      "closedAt": "2026-05-25T04:35:25Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 50432,
+      "title": "Bug report: Trends bar chart - 'Compare to previous' shows dates from previous period on x-axis",
+      "url": "https://github.com/PostHog/posthog/issues/50432",
+      "author": "slshults",
+      "closedBy": "sampennington",
+      "closedAt": "2026-04-07T15:54:04Z",
+      "labels": [
+        "bug",
+        "feature/trends",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 50310,
+      "title": "Bug: Editing funnel insights in a notebook is broken",
+      "url": "https://github.com/PostHog/posthog/issues/50310",
+      "author": "darkopia",
+      "closedBy": "anirudhpillai",
+      "closedAt": "2026-03-11T10:54:42Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 49833,
+      "title": "Bug: Fix SDK Doctor warning logic for CDN users",
+      "url": "https://github.com/PostHog/posthog/issues/49833",
+      "author": "christiaan-ph",
+      "closedBy": "slshults",
+      "closedAt": "2026-03-09T16:08:18Z",
+      "labels": [
+        "bug",
+        "feature/sdk-doctor"
+      ]
+    },
+    {
+      "number": 49715,
+      "title": "Feature Flag API creation accepts empty filters, but UI does not",
+      "url": "https://github.com/PostHog/posthog/issues/49715",
+      "author": "kyleswank",
+      "closedBy": "haacked",
+      "closedAt": "2026-03-11T18:47:09Z",
+      "labels": [
+        "bug",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 48947,
+      "title": "Add an option to set Y-Axis range",
+      "url": "https://github.com/PostHog/posthog/issues/48947",
+      "author": "phillram",
+      "closedBy": "trunk-io[bot]",
+      "closedAt": "2026-08-14T12:17:16Z",
+      "labels": [
+        "enhancement",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 48911,
+      "title": "Bug: full screen view of a replay broken when browser window not full screen",
+      "url": "https://github.com/PostHog/posthog/issues/48911",
+      "author": "clr182",
+      "closedBy": "fasyy612",
+      "closedAt": "2026-02-27T14:27:18Z",
+      "labels": [
+        "bug",
+        "feature/replay",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 48395,
+      "title": "Dashboard search fails to return results for titles containing specific titles",
+      "url": "https://github.com/PostHog/posthog/issues/48395",
+      "author": "phillram",
+      "closedBy": "MattPua",
+      "closedAt": "2026-03-23T13:45:46Z",
+      "labels": [
+        "bug",
+        "team/product-analytics",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 48196,
+      "title": "fix(cohorts): saving dynamic cohort resets column configuration",
+      "url": "https://github.com/PostHog/posthog/issues/48196",
+      "author": "dmarticus",
+      "closedBy": "dmarticus",
+      "closedAt": "2026-03-02T21:41:15Z",
+      "labels": [
+        "feature/cohorts",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 48179,
+      "title": "Feature Request: warn instead of failing on source map content hash mismatch",
+      "url": "https://github.com/PostHog/posthog/issues/48179",
+      "author": "christiaan-ph",
+      "closedBy": "marandaneto",
+      "closedAt": "2026-06-22T07:27:20Z",
+      "labels": [
+        "enhancement",
+        "question",
+        "feature/error-tracking",
+        "team/error-tracking",
+        "feature/mobile",
+        "feature/libraries"
+      ]
+    },
+    {
+      "number": 47935,
+      "title": "Feature Request: Show feature flag variant description in experiment variants tab or metrics",
+      "url": "https://github.com/PostHog/posthog/issues/47935",
+      "author": "ordehi",
+      "closedBy": "mp-hog",
+      "closedAt": "2026-03-27T15:18:27Z",
+      "labels": [
+        "enhancement",
+        "team/experiments",
+        "experiments/new-engine"
+      ]
+    },
+    {
+      "number": 47722,
+      "title": "API for creating cohorts doesn't validate value for since operator",
+      "url": "https://github.com/PostHog/posthog/issues/47722",
+      "author": "haacked",
+      "closedBy": "patricio-posthog",
+      "closedAt": "2026-02-27T13:46:33Z",
+      "labels": [
+        "bug",
+        "feature/cohorts"
+      ]
+    },
+    {
+      "number": 47703,
+      "title": "Changing operator from string operator to date operator should clear or validate value",
+      "url": "https://github.com/PostHog/posthog/issues/47703",
+      "author": "haacked",
+      "closedBy": "charlescook-ph",
+      "closedAt": "2026-02-24T19:02:18Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 46864,
+      "title": "Bug: Replay top and bottom of the dom are not in the right places",
+      "url": "https://github.com/PostHog/posthog/issues/46864",
+      "author": "clr182",
+      "closedBy": "fasyy612",
+      "closedAt": "2026-02-13T10:55:57Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 46775,
+      "title": "Bug report: Heatmaps in dark mode - white text on white BG, in some elements",
+      "url": "https://github.com/PostHog/posthog/issues/46775",
+      "author": "slshults",
+      "closedBy": "lricoy",
+      "closedAt": "2026-02-05T18:38:04Z",
+      "labels": [
+        "bug",
+        "team/web-analytics",
+        "feature/heatmaps"
+      ]
+    },
+    {
+      "number": 46619,
+      "title": "Feature request: LLM evals - add support for Azure OpenAI API keys",
+      "url": "https://github.com/PostHog/posthog/issues/46619",
+      "author": "slshults",
+      "closedBy": "Radu-Raicea",
+      "closedAt": "2026-05-05T14:34:23Z",
+      "labels": [
+        "enhancement",
+        "team/llm-analytics",
+        "llma/evals"
+      ]
+    },
+    {
+      "number": 46525,
+      "title": "Bug: UI crashes on malformed stacktrace.frames data",
+      "url": "https://github.com/PostHog/posthog/issues/46525",
+      "author": "christiaan-ph",
+      "closedBy": "hpouillot",
+      "closedAt": "2026-02-12T12:00:33Z",
+      "labels": [
+        "bug",
+        "feature/error-tracking",
+        "team/error-tracking"
+      ]
+    },
+    {
+      "number": 46111,
+      "title": "Bug report: iOS sessions show 0 events in 'Activity → Sessions' due to session_id case mismatch",
+      "url": "https://github.com/PostHog/posthog/issues/46111",
+      "author": "slshults",
+      "closedBy": "marandaneto",
+      "closedAt": "2026-06-29T09:16:36Z",
+      "labels": [
+        "bug",
+        "feature/session-analytics",
+        "Filters",
+        "feature/mobile",
+        "feature/libraries",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 46043,
+      "title": "Bug: Disabled flags may stay enabled if errors while computing",
+      "url": "https://github.com/PostHog/posthog/issues/46043",
+      "author": "luke-belton",
+      "closedBy": "dmarticus",
+      "closedAt": "2026-02-09T08:02:04Z",
+      "labels": [
+        "bug",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 46021,
+      "title": "Feature Request: Notification if materializations fail",
+      "url": "https://github.com/PostHog/posthog/issues/46021",
+      "author": "luke-belton",
+      "closedBy": "sakce",
+      "closedAt": "2026-02-05T16:44:53Z",
+      "labels": [
+        "enhancement",
+        "team/data-warehouse",
+        "feature/data-warehouse"
+      ]
+    },
+    {
+      "number": 45923,
+      "title": "Bug: Homepage shows \"Dashboard not found\" error when primary dashboard is deleted",
+      "url": "https://github.com/PostHog/posthog/issues/45923",
+      "author": "christiaan-ph",
+      "closedBy": "sampennington",
+      "closedAt": "2026-02-11T16:25:32Z",
+      "labels": [
+        "bug",
+        "ui",
+        "ux",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 45571,
+      "title": "Feature Request: Persist filter context across related Activity views",
+      "url": "https://github.com/PostHog/posthog/issues/45571",
+      "author": "christiaan-ph",
+      "closedBy": "christiaan-ph",
+      "closedAt": "2026-05-26T08:36:19Z",
+      "labels": [
+        "enhancement",
+        "team/product-analytics",
+        "ux",
+        "ui-ux-improvement"
+      ]
+    },
+    {
+      "number": 45446,
+      "title": "Feature Request: Session duration metrics in experiments",
+      "url": "https://github.com/PostHog/posthog/issues/45446",
+      "author": "ordehi",
+      "closedBy": "ordehi",
+      "closedAt": "2026-01-20T20:52:43Z",
+      "labels": [
+        "enhancement",
+        "team/experiments",
+        "experiments/new-engine"
+      ]
+    },
+    {
+      "number": 45221,
+      "title": "Use Person Property Timezone for Workflows",
+      "url": "https://github.com/PostHog/posthog/issues/45221",
+      "author": "meikelmosby",
+      "closedBy": "meikelmosby",
+      "closedAt": "2026-01-19T12:07:55Z",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 45164,
+      "title": "Bug: navigation lockup when viewing replays",
+      "url": "https://github.com/PostHog/posthog/issues/45164",
+      "author": "clr182",
+      "closedBy": "pauldambra",
+      "closedAt": "2026-02-03T09:45:48Z",
+      "labels": [
+        "bug",
+        "team/product-analytics",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 44919,
+      "title": "[CDP-TEST-HIDDEN] Customer.io destination sending pipeline failure emails",
+      "url": "https://github.com/PostHog/posthog/issues/44919",
+      "author": "kyleswank",
+      "closedBy": "kyleswank",
+      "closedAt": "2026-01-13T17:22:14Z",
+      "labels": [
+        "bug",
+        "feature/pipelines",
+        "feature/messaging"
+      ]
+    },
+    {
+      "number": 44918,
+      "title": "Bug: primary_metrics_ordered_uuids is null but primary metrics exist",
+      "url": "https://github.com/PostHog/posthog/issues/44918",
+      "author": "ordehi",
+      "closedBy": "ordehi",
+      "closedAt": "2026-01-14T14:09:59Z",
+      "labels": [
+        "bug",
+        "team/experiments",
+        "experiments/new-engine"
+      ]
+    },
+    {
+      "number": 44891,
+      "title": "Move `scheduled_at` out of workflow trigger",
+      "url": "https://github.com/PostHog/posthog/issues/44891",
+      "author": "meikelmosby",
+      "closedBy": "dmarchuk",
+      "closedAt": "2026-05-26T22:55:37Z",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 44561,
+      "title": "Bug: Creating a new insight from a dashboard no longer adds it to the dashboard",
+      "url": "https://github.com/PostHog/posthog/issues/44561",
+      "author": "luke-belton",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2026-01-22T12:45:24Z",
+      "labels": [
+        "bug",
+        "feature/dashboards",
+        "team/product-analytics",
+        "feature/insights"
+      ]
+    },
+    {
+      "number": 44524,
+      "title": "Feature Request: Yearly recurring interval on flags scheduling",
+      "url": "https://github.com/PostHog/posthog/issues/44524",
+      "author": "darkopia",
+      "closedBy": "dustinbyrne",
+      "closedAt": "2026-01-15T19:11:46Z",
+      "labels": [
+        "enhancement",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 44467,
+      "title": "Support return-path header in workflow emails",
+      "url": "https://github.com/PostHog/posthog/issues/44467",
+      "author": "kyleswank",
+      "closedBy": "havenbarnes",
+      "closedAt": "2026-01-21T19:22:05Z",
+      "labels": [
+        "enhancement",
+        "feature/messaging",
+        "feature/workflows"
+      ]
+    },
+    {
+      "number": 87410,
+      "title": "Test",
+      "url": "https://github.com/PostHog/posthog/issues/87410",
+      "author": "posthog[bot]",
+      "closedBy": "posthog[bot]",
+      "closedAt": "2026-08-22T05:05:47Z",
+      "labels": []
+    },
+    {
+      "number": 44445,
+      "title": "Feature Request: Don't apply a breakdown limit during export",
+      "url": "https://github.com/PostHog/posthog/issues/44445",
+      "author": "luke-belton",
+      "closedBy": "andyzzhao",
+      "closedAt": "2026-01-08T18:03:36Z",
+      "labels": [
+        "enhancement",
+        "feature/insights",
+        "feature/table-exports"
+      ]
+    },
+    {
+      "number": 44364,
+      "title": "Bug: Organization admins/owners cannot see dashboards with \"No access\" default permission in dashboard list, despite having implicit access",
+      "url": "https://github.com/PostHog/posthog/issues/44364",
+      "author": "HaynesPostHog",
+      "closedBy": "MattPua",
+      "closedAt": "2026-04-20T20:51:40Z",
+      "labels": [
+        "bug",
+        "feature/dashboards",
+        "team/product-analytics",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 44256,
+      "title": "Feature Request: Support Survey event property targeting in other SDKs.",
+      "url": "https://github.com/PostHog/posthog/issues/44256",
+      "author": "ordehi",
+      "closedBy": "adboio",
+      "closedAt": "2026-01-23T22:36:17Z",
+      "labels": [
+        "enhancement",
+        "feature/surveys",
+        "team/surveys"
+      ]
+    },
+    {
+      "number": 44150,
+      "title": "Feature Request: More reliable cross-session/cross-device survey wait period enforcement",
+      "url": "https://github.com/PostHog/posthog/issues/44150",
+      "author": "ordehi",
+      "closedBy": "adboio",
+      "closedAt": "2026-01-05T22:01:45Z",
+      "labels": [
+        "enhancement",
+        "feature/surveys",
+        "team/surveys"
+      ]
+    },
+    {
+      "number": 44015,
+      "title": "Feature Request: Survey display option: Show until completed",
+      "url": "https://github.com/PostHog/posthog/issues/44015",
+      "author": "ordehi",
+      "closedBy": "adboio",
+      "closedAt": "2026-01-19T16:42:38Z",
+      "labels": [
+        "enhancement",
+        "feature/surveys",
+        "team/surveys"
+      ]
+    },
+    {
+      "number": 43820,
+      "title": "Retention Insight on Dashboard Displays ID When Filtering, Not Cohort Name",
+      "url": "https://github.com/PostHog/posthog/issues/43820",
+      "author": "kyleswank",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2025-12-30T08:48:48Z",
+      "labels": [
+        "bug",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 43729,
+      "title": "bug(flags): Flags API allows creating invalid flag definitions",
+      "url": "https://github.com/PostHog/posthog/issues/43729",
+      "author": "haacked",
+      "closedBy": "dmarticus",
+      "closedAt": "2026-02-09T14:48:32Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 43728,
+      "title": "Bug report: Question text overflowing in survey preview",
+      "url": "https://github.com/PostHog/posthog/issues/43728",
+      "author": "slshults",
+      "closedBy": "adboio",
+      "closedAt": "2025-12-19T03:18:55Z",
+      "labels": [
+        "bug",
+        "feature/surveys",
+        "team/surveys"
+      ]
+    },
+    {
+      "number": 43670,
+      "title": "Bug: replay frontend visual bug no replay window",
+      "url": "https://github.com/PostHog/posthog/issues/43670",
+      "author": "clr182",
+      "closedBy": "pauldambra",
+      "closedAt": "2025-12-30T22:42:53Z",
+      "labels": [
+        "bug",
+        "ui",
+        "team/session-replay",
+        "ui-ux-improvement"
+      ]
+    },
+    {
+      "number": 43657,
+      "title": "Bug: Surveys Cannot read properties of null (reading 'has')",
+      "url": "https://github.com/PostHog/posthog/issues/43657",
+      "author": "clr182",
+      "closedBy": "adboio",
+      "closedAt": "2025-12-19T03:26:42Z",
+      "labels": [
+        "bug",
+        "feature/surveys"
+      ]
+    },
+    {
+      "number": 43634,
+      "title": "Bug: When creating insights, selecting an item in the filtering dropdown causes the text to overflow",
+      "url": "https://github.com/PostHog/posthog/issues/43634",
+      "author": "HaynesPostHog",
+      "closedBy": "adboio",
+      "closedAt": "2025-12-19T03:21:36Z",
+      "labels": [
+        "bug",
+        "feature/property-filters",
+        "feature/insights",
+        "team-devex"
+      ]
+    },
+    {
+      "number": 43605,
+      "title": "Bug: Survey opportunity button breaks formatting on smaller insight tiles",
+      "url": "https://github.com/PostHog/posthog/issues/43605",
+      "author": "HaynesPostHog",
+      "closedBy": "HaynesPostHog",
+      "closedAt": "2025-12-17T21:28:29Z",
+      "labels": [
+        "bug",
+        "feature/surveys"
+      ]
+    },
+    {
+      "number": 43513,
+      "title": "Bug: \"View Session Recordings\" button doesn't apply cohort filter to session replay list",
+      "url": "https://github.com/PostHog/posthog/issues/43513",
+      "author": "HaynesPostHog",
+      "closedBy": "dmarticus",
+      "closedAt": "2026-03-02T21:29:15Z",
+      "labels": [
+        "bug",
+        "feature/cohorts",
+        "feature/replay",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 43457,
+      "title": "Bug: Live activity Pause button does not work",
+      "url": "https://github.com/PostHog/posthog/issues/43457",
+      "author": "clr182",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2025-12-17T20:11:07Z",
+      "labels": [
+        "bug",
+        "team/platform-features"
+      ]
+    },
+    {
+      "number": 43156,
+      "title": "Bug: Renaming project gives error",
+      "url": "https://github.com/PostHog/posthog/issues/43156",
+      "author": "clr182",
+      "closedBy": "a-lider",
+      "closedAt": "2025-12-15T09:42:17Z",
+      "labels": [
+        "bug",
+        "team/platform-features"
+      ]
+    },
+    {
+      "number": 43144,
+      "title": "Static cohorts are created, empty and no creation feedback, eventually processes",
+      "url": "https://github.com/PostHog/posthog/issues/43144",
+      "author": "kyleswank",
+      "closedBy": "dustinbyrne",
+      "closedAt": "2025-12-12T00:15:28Z",
+      "labels": [
+        "bug",
+        "feature/cohorts"
+      ]
+    },
+    {
+      "number": 43135,
+      "title": "Bug: LLMA ai_input and ai_output are blank",
+      "url": "https://github.com/PostHog/posthog/issues/43135",
+      "author": "clr182",
+      "closedBy": "clr182",
+      "closedAt": "2025-12-11T15:59:47Z",
+      "labels": [
+        "bug",
+        "team/llm-analytics",
+        "llm-analytics"
+      ]
+    },
+    {
+      "number": 43044,
+      "title": "[LLMA] Capture image generation costs",
+      "url": "https://github.com/PostHog/posthog/issues/43044",
+      "author": "Radu-Raicea",
+      "closedBy": "Radu-Raicea",
+      "closedAt": "2026-05-05T14:31:58Z",
+      "labels": [
+        "enhancement",
+        "team/llm-analytics"
+      ]
+    },
+    {
+      "number": 43030,
+      "title": "Feature Request: Control over session replay long term storage time.",
+      "url": "https://github.com/PostHog/posthog/issues/43030",
+      "author": "clr182",
+      "closedBy": "clr182",
+      "closedAt": "2025-12-09T15:55:14Z",
+      "labels": [
+        "enhancement",
+        "feature/replay",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 42996,
+      "title": "Feature request: Median and percentile options for funnel Time to Convert",
+      "url": "https://github.com/PostHog/posthog/issues/42996",
+      "author": "slshults",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2026-06-22T10:51:41Z",
+      "labels": [
+        "enhancement",
+        "feature/funnels",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 42820,
+      "title": "Feature Request: Add quarterly and yearly aggregation to insights",
+      "url": "https://github.com/PostHog/posthog/issues/42820",
+      "author": "clr182",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2025-12-05T16:10:59Z",
+      "labels": [
+        "enhancement",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 42643,
+      "title": "Bug report: Annotations missing from time series charts",
+      "url": "https://github.com/PostHog/posthog/issues/42643",
+      "author": "slshults",
+      "closedBy": "anirudhpillai",
+      "closedAt": "2025-12-04T12:45:23Z",
+      "labels": [
+        "bug",
+        "feature/annotations",
+        "team/product-analytics",
+        "support/priority"
+      ]
+    },
+    {
+      "number": 42630,
+      "title": "Session Replay via Person Profile are squished",
+      "url": "https://github.com/PostHog/posthog/issues/42630",
+      "author": "kyleswank",
+      "closedBy": "arnohillen",
+      "closedAt": "2026-07-27T21:34:22Z",
+      "labels": [
+        "bug",
+        "feature/replay",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 42520,
+      "title": "Group properties created by groupidentify events are not persisted by propdefs service",
+      "url": "https://github.com/PostHog/posthog/issues/42520",
+      "author": "eli-r-ph",
+      "closedBy": "eli-r-ph",
+      "closedAt": "2026-07-15T18:23:33Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 42501,
+      "title": "Support custom dashboard templates",
+      "url": "https://github.com/PostHog/posthog/issues/42501",
+      "author": "robbie-c",
+      "closedBy": "MattPua",
+      "closedAt": "2026-04-10T15:24:28Z",
+      "labels": [
+        "enhancement",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 42495,
+      "title": "Static Cohorts Show 0 Users In Cohort On Cohort List Page",
+      "url": "https://github.com/PostHog/posthog/issues/42495",
+      "author": "kyleswank",
+      "closedBy": "dustinbyrne",
+      "closedAt": "2025-12-10T20:27:05Z",
+      "labels": [
+        "bug",
+        "feature/cohorts"
+      ]
+    },
+    {
+      "number": 42409,
+      "title": "SecurityError: Failed to construct 'Worker': Script at 'https://app-static.eu.posthog.com/static/html.worker.js' cannot be accessed from origin 'https://eu.posthog.com'.",
+      "url": "https://github.com/PostHog/posthog/issues/42409",
+      "author": "posthog[bot]",
+      "closedBy": "lucasheriques",
+      "closedAt": "2025-12-05T16:37:41Z",
+      "labels": [
+        "bug",
+        "feature/surveys"
+      ]
+    },
+    {
+      "number": 42405,
+      "title": "Feature Request: Better UX for managing large JSON objects in UI",
+      "url": "https://github.com/PostHog/posthog/issues/42405",
+      "author": "luke-belton",
+      "closedBy": "dustinbyrne",
+      "closedAt": "2025-12-19T19:36:55Z",
+      "labels": [
+        "enhancement",
+        "feature/feature-flags",
+        "team/feature-flags",
+        "ux"
+      ]
+    },
+    {
+      "number": 42322,
+      "title": "Bug: Cannot use date functions on external data warehouse datetime columns",
+      "url": "https://github.com/PostHog/posthog/issues/42322",
+      "author": "ordehi",
+      "closedBy": "ordehi",
+      "closedAt": "2025-11-28T18:41:36Z",
+      "labels": [
+        "bug",
+        "team/data-warehouse",
+        "feature/sql-editor"
+      ]
+    },
+    {
+      "number": 42302,
+      "title": "Feature Request: Add time-of-day filtering to dashboard date range picker",
+      "url": "https://github.com/PostHog/posthog/issues/42302",
+      "author": "ordehi",
+      "closedBy": "ordehi",
+      "closedAt": "2026-01-22T17:28:50Z",
+      "labels": [
+        "enhancement",
+        "feature/dashboards",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 42255,
+      "title": "Feature Request: Improve chart legend display to reduce redundancy and save space",
+      "url": "https://github.com/PostHog/posthog/issues/42255",
+      "author": "ordehi",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2025-12-30T09:07:54Z",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "feature/trends",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 42213,
+      "title": "Feature Request: OpenRouter Broadcast integration",
+      "url": "https://github.com/PostHog/posthog/issues/42213",
+      "author": "ordehi",
+      "closedBy": "Radu-Raicea",
+      "closedAt": "2026-05-05T14:31:31Z",
+      "labels": [
+        "enhancement",
+        "team/llm-analytics",
+        "llm-analytics"
+      ]
+    },
+    {
+      "number": 42168,
+      "title": "Feature Flag Secret Key Rotation Doesn't Obey Project Permissions",
+      "url": "https://github.com/PostHog/posthog/issues/42168",
+      "author": "kyleswank",
+      "closedBy": "dmarticus",
+      "closedAt": "2026-01-28T20:09:40Z",
+      "labels": [
+        "bug",
+        "feature/feature-flags",
+        "feature/permissions",
+        "team/feature-flags",
+        "team/platform-features"
+      ]
+    },
+    {
+      "number": 42127,
+      "title": "bug(subscriptions): Exports intermittently show empty states despite data being available",
+      "url": "https://github.com/PostHog/posthog/issues/42127",
+      "author": "vdekrijger",
+      "closedBy": "vdekrijger",
+      "closedAt": "2025-11-28T17:32:26Z",
+      "labels": [
+        "bug",
+        "feature/subscriptions",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 42073,
+      "title": "Bug: Pinned properties in session replay don't persist across navigation",
+      "url": "https://github.com/PostHog/posthog/issues/42073",
+      "author": "ordehi",
+      "closedBy": "arnohillen",
+      "closedAt": "2026-07-27T21:34:24Z",
+      "labels": [
+        "bug",
+        "feature/replay",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 42063,
+      "title": "Feature Request: Survey filters UX is confusing and shows users conflicting data",
+      "url": "https://github.com/PostHog/posthog/issues/42063",
+      "author": "ordehi",
+      "closedBy": "adboio",
+      "closedAt": "2025-11-25T19:00:45Z",
+      "labels": [
+        "enhancement",
+        "feature/surveys",
+        "ux"
+      ]
+    },
+    {
+      "number": 41994,
+      "title": "Bug: Group overview dashboard \"Customize\" button throws 500 error and template dashboards don't sync insights",
+      "url": "https://github.com/PostHog/posthog/issues/41994",
+      "author": "ordehi",
+      "closedBy": "arthurdedeus",
+      "closedAt": "2025-12-03T14:43:15Z",
+      "labels": [
+        "bug",
+        "feature/group-analytics",
+        "team/customer-analytics"
+      ]
+    },
+    {
+      "number": 41906,
+      "title": "Bug: Retention insight interval dropdowns not working",
+      "url": "https://github.com/PostHog/posthog/issues/41906",
+      "author": "ordehi",
+      "closedBy": "gesh",
+      "closedAt": "2025-11-21T16:43:54Z",
+      "labels": [
+        "bug",
+        "feature/retention",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 41877,
+      "title": "Feature request: Explore converted and dropped sessions in funnels aggregated by unique sessions",
+      "url": "https://github.com/PostHog/posthog/issues/41877",
+      "author": "gesh",
+      "closedBy": "gesh",
+      "closedAt": "2025-12-03T21:03:34Z",
+      "labels": [
+        "enhancement",
+        "feature/funnels",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 41838,
+      "title": "Bug: `ongoing` property for replays not always accurate",
+      "url": "https://github.com/PostHog/posthog/issues/41838",
+      "author": "luke-belton",
+      "closedBy": "arnohillen",
+      "closedAt": "2026-07-28T19:53:14Z",
+      "labels": [
+        "bug",
+        "feature/replay",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 41812,
+      "title": "Bug: Conflicting advice on whether to use cohorts for test/internal user filter",
+      "url": "https://github.com/PostHog/posthog/issues/41812",
+      "author": "luke-belton",
+      "closedBy": "dmarchuk",
+      "closedAt": "2026-04-08T11:49:57Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "feature/property-filters",
+        "team/product-analytics",
+        "team/cdp",
+        "feature/pipelines"
+      ]
+    },
+    {
+      "number": 41809,
+      "title": "Bug: \"Use person properties from query time\" option not reflected in SQL editor",
+      "url": "https://github.com/PostHog/posthog/issues/41809",
+      "author": "danazou",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2025-12-03T14:25:37Z",
+      "labels": [
+        "bug",
+        "feature/trends",
+        "team/product-analytics",
+        "feature/insights"
+      ]
+    },
+    {
+      "number": 41687,
+      "title": "Bug: Session replay filters not applying correctly - AND/OR logic broken",
+      "url": "https://github.com/PostHog/posthog/issues/41687",
+      "author": "ordehi",
+      "closedBy": "arnohillen",
+      "closedAt": "2026-07-27T21:34:23Z",
+      "labels": [
+        "bug",
+        "feature/replay",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 41658,
+      "title": "[LLMA] Trace view loads only partial results before cache refresh",
+      "url": "https://github.com/PostHog/posthog/issues/41658",
+      "author": "Radu-Raicea",
+      "closedBy": "Radu-Raicea",
+      "closedAt": "2026-05-06T14:45:33Z",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 41549,
+      "title": "Improve UX around non-matching multi-variant users",
+      "url": "https://github.com/PostHog/posthog/issues/41549",
+      "author": "dustinbyrne",
+      "closedBy": "dustinbyrne",
+      "closedAt": "2026-01-20T16:59:08Z",
+      "labels": [
+        "feature/feature-flags"
+      ]
+    },
+    {
+      "number": 41496,
+      "title": "Bug report: Breakdown on retention insight throws error \"Unknown function 'any'.\"",
+      "url": "https://github.com/PostHog/posthog/issues/41496",
+      "author": "slshults",
+      "closedBy": "anirudhpillai",
+      "closedAt": "2025-11-19T09:31:21Z",
+      "labels": [
+        "bug",
+        "feature/retention",
+        "team/product-analytics",
+        "feature/insights"
+      ]
+    },
+    {
+      "number": 41393,
+      "title": "Experiment creation persist flag across auth steps should follow project preference",
+      "url": "https://github.com/PostHog/posthog/issues/41393",
+      "author": "kyleswank",
+      "closedBy": "andehen",
+      "closedAt": "2026-05-27T16:01:21Z",
+      "labels": [
+        "enhancement",
+        "team/experiments"
+      ]
+    },
+    {
+      "number": 41331,
+      "title": "Sprint - Nov 17 to Nov 28",
+      "url": "https://github.com/PostHog/posthog/issues/41331",
+      "author": "mariusandra",
+      "closedBy": "marandaneto",
+      "closedAt": "2025-12-03T07:34:12Z",
+      "labels": [
+        "sprint"
+      ]
+    },
+    {
+      "number": 41301,
+      "title": "Bug: Maximum call stack size exceeded in session replay inspector due to thousands of duplicate $url_changed events",
+      "url": "https://github.com/PostHog/posthog/issues/41301",
+      "author": "ordehi",
+      "closedBy": "arnohillen",
+      "closedAt": "2026-07-27T21:34:17Z",
+      "labels": [
+        "bug",
+        "feature/replay",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 41286,
+      "title": "Bug: Survey results date filter mismatch between UI and query",
+      "url": "https://github.com/PostHog/posthog/issues/41286",
+      "author": "ordehi",
+      "closedBy": "adboio",
+      "closedAt": "2025-11-25T20:55:30Z",
+      "labels": [
+        "bug",
+        "feature/surveys"
+      ]
+    },
+    {
+      "number": 41089,
+      "title": "PostHog MCP: insight-update tool cannot set `saved` field, only `favorited`",
+      "url": "https://github.com/PostHog/posthog/issues/41089",
+      "author": "vongohren",
+      "closedBy": "VojtechBartos",
+      "closedAt": "2026-04-02T19:31:47Z",
+      "labels": []
+    },
+    {
+      "number": 40958,
+      "title": "Bug: Manage distribution for experiment not working",
+      "url": "https://github.com/PostHog/posthog/issues/40958",
+      "author": "luke-belton",
+      "closedBy": "luke-belton",
+      "closedAt": "2025-11-06T11:10:25Z",
+      "labels": [
+        "bug",
+        "team/experiments"
+      ]
+    },
+    {
+      "number": 40957,
+      "title": "Feature Request: Improve exception display for long values",
+      "url": "https://github.com/PostHog/posthog/issues/40957",
+      "author": "ordehi",
+      "closedBy": "rafaeelaudibert",
+      "closedAt": "2026-02-24T21:30:00Z",
+      "labels": [
+        "enhancement",
+        "feature/error-tracking",
+        "team/error-tracking"
+      ]
+    },
+    {
+      "number": 40890,
+      "title": "Feature Request: Allow adding the same email domain to multiple projects with Workflows",
+      "url": "https://github.com/PostHog/posthog/issues/40890",
+      "author": "ordehi",
+      "closedBy": "havenbarnes",
+      "closedAt": "2025-11-11T17:28:49Z",
+      "labels": [
+        "enhancement",
+        "feature/workflows"
+      ]
+    },
+    {
+      "number": 40880,
+      "title": "Feature Request: Configurable Rageclick Detection Thresholds",
+      "url": "https://github.com/PostHog/posthog/issues/40880",
+      "author": "HaynesPostHog",
+      "closedBy": "pauldambra",
+      "closedAt": "2025-11-12T16:17:21Z",
+      "labels": [
+        "enhancement",
+        "team/web-analytics",
+        "feature/autocapture",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 40838,
+      "title": "Bug: Customize insights on group page is not working",
+      "url": "https://github.com/PostHog/posthog/issues/40838",
+      "author": "clr182",
+      "closedBy": "arthurdedeus",
+      "closedAt": "2025-12-03T14:43:27Z",
+      "labels": [
+        "bug",
+        "feature/saved-insights",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 40755,
+      "title": "Feature Flags Stale Filter Out of Sync With All",
+      "url": "https://github.com/PostHog/posthog/issues/40755",
+      "author": "kyleswank",
+      "closedBy": "dmarticus",
+      "closedAt": "2026-04-07T18:39:24Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 40740,
+      "title": "Bug: Legend clicks no longer filtering series",
+      "url": "https://github.com/PostHog/posthog/issues/40740",
+      "author": "luke-belton",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2025-12-09T19:37:08Z",
+      "labels": [
+        "bug",
+        "feature/trends",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 40654,
+      "title": "Bug: Dropdown selectors not responding to clicks",
+      "url": "https://github.com/PostHog/posthog/issues/40654",
+      "author": "luke-belton",
+      "closedBy": "HaynesPostHog",
+      "closedAt": "2025-11-03T17:01:48Z",
+      "labels": [
+        "bug",
+        "feature/property-filters"
+      ]
+    },
+    {
+      "number": 40630,
+      "title": "Feature Request: Include legend for Slack subscriptions",
+      "url": "https://github.com/PostHog/posthog/issues/40630",
+      "author": "luke-belton",
+      "closedBy": "vdekrijger",
+      "closedAt": "2025-11-21T21:37:03Z",
+      "labels": [
+        "bug",
+        "enhancement",
+        "feature/trends",
+        "feature/subscriptions"
+      ]
+    },
+    {
+      "number": 40627,
+      "title": "Bug: Session replay Buffering",
+      "url": "https://github.com/PostHog/posthog/issues/40627",
+      "author": "clr182",
+      "closedBy": "pauldambra",
+      "closedAt": "2026-01-05T14:52:28Z",
+      "labels": [
+        "bug",
+        "team/session-replay"
+      ]
+    },
+    {
+      "number": 40609,
+      "title": "Bug report: Unsaved changes persist in UI until page reload in edit mode",
+      "url": "https://github.com/PostHog/posthog/issues/40609",
+      "author": "slshults",
+      "closedBy": "darkopia",
+      "closedAt": "2025-11-19T09:51:12Z",
+      "labels": [
+        "bug",
+        "feature/funnels",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 40577,
+      "title": "Bug: 'Results on X' model incorrectly shows no results",
+      "url": "https://github.com/PostHog/posthog/issues/40577",
+      "author": "clr182",
+      "closedBy": "gesh",
+      "closedAt": "2025-10-31T10:28:07Z",
+      "labels": [
+        "bug",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 40425,
+      "title": "Exports with formula are unformatted and include metadata",
+      "url": "https://github.com/PostHog/posthog/issues/40425",
+      "author": "andyzzhao",
+      "closedBy": "andyzzhao",
+      "closedAt": "2025-11-13T18:52:17Z",
+      "labels": [
+        "bug",
+        "team/analytics-platform"
+      ]
+    },
+    {
+      "number": 40309,
+      "title": "Bug Report: decimal options aren't working",
+      "url": "https://github.com/PostHog/posthog/issues/40309",
+      "author": "clr182",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2025-12-29T10:16:58Z",
+      "labels": [
+        "bug",
+        "good first issue",
+        "team/product-analytics"
+      ]
+    },
+    {
+      "number": 40240,
+      "title": "feat(llma): make evals able to run on whole trace",
+      "url": "https://github.com/PostHog/posthog/issues/40240",
+      "author": "carlos-marchal-ph",
+      "closedBy": "Radu-Raicea",
+      "closedAt": "2026-05-06T14:11:07Z",
+      "labels": [
+        "team/llm-analytics",
+        "llma/evals"
+      ]
+    },
+    {
+      "number": 40214,
+      "title": "Bug: Comment and emoji on timeline overlap making it unreadable",
+      "url": "https://github.com/PostHog/posthog/issues/40214",
+      "author": "darkopia",
+      "closedBy": "arnohillen",
+      "closedAt": "2026-07-28T01:17:13Z",
+      "labels": [
+        "bug",
+        "feature/replay"
+      ]
+    },
+    {
+      "number": 40194,
+      "title": "[Bug]: TypeError on feature flag usage page",
+      "url": "https://github.com/PostHog/posthog/issues/40194",
+      "author": "posthog[bot]",
+      "closedBy": "luke-belton",
+      "closedAt": "2025-10-23T09:53:54Z",
+      "labels": [
+        "bug",
+        "feature/feature-flags",
+        "team/feature-flags"
+      ]
+    },
+    {
+      "number": 39943,
+      "title": "Feature Request: Make it easier to find activity from a specific time",
+      "url": "https://github.com/PostHog/posthog/issues/39943",
+      "author": "luke-belton",
+      "closedBy": "fercgomes",
+      "closedAt": "2026-02-14T19:04:22Z",
+      "labels": [
+        "enhancement",
+        "feature/property-filters"
+      ]
+    },
+    {
+      "number": 39756,
+      "title": "GitHub Integration cannot be installed for multiple projects",
+      "url": "https://github.com/PostHog/posthog/issues/39756",
+      "author": "daibhin",
+      "closedBy": "VojtechBartos",
+      "closedAt": "2026-07-14T08:17:13Z",
+      "labels": [
+        "enhancement",
+        "feature/error-tracking",
+        "team/error-tracking",
+        "team/cdp"
+      ]
+    },
+    {
+      "number": 39754,
+      "title": "Bug: Survey image bounding",
+      "url": "https://github.com/PostHog/posthog/issues/39754",
+      "author": "clr182",
+      "closedBy": "adboio",
+      "closedAt": "2025-11-19T02:27:33Z",
+      "labels": [
+        "bug",
+        "feature/surveys"
+      ]
+    },
+    {
+      "number": 39746,
+      "title": "Feature request: Show retention trend line for a specific day/week/month",
+      "url": "https://github.com/PostHog/posthog/issues/39746",
+      "author": "slshults",
+      "closedBy": "thmsobrmlr",
+      "closedAt": "2025-12-04T19:27:15Z",
+      "labels": [
+        "enhancement",
+        "feature/retention",
+        "team/product-analytics",
+        "feature/insights"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 5465430714,
+      "issueNumber": 91327,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T23:12:23Z"
+    },
+    {
+      "id": 5465365506,
+      "issueNumber": 90870,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T22:56:46Z"
+    },
+    {
+      "id": 5465281419,
+      "issueNumber": 91314,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-29T22:36:30Z"
+    },
+    {
+      "id": 5465268664,
+      "issueNumber": 90870,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T22:33:33Z"
+    },
+    {
+      "id": 5465212728,
+      "issueNumber": 91322,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T22:20:20Z"
+    },
+    {
+      "id": 5465143971,
+      "issueNumber": 91311,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T22:04:12Z"
+    },
+    {
+      "id": 5465104759,
+      "issueNumber": 91321,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T21:55:19Z"
+    },
+    {
+      "id": 5465100449,
+      "issueNumber": 91322,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T21:54:20Z"
+    },
+    {
+      "id": 5465060388,
+      "issueNumber": 91318,
+      "isPRComment": true,
+      "author": "charlesvien",
+      "createdAt": "2026-08-29T21:45:10Z"
+    },
+    {
+      "id": 5464971862,
+      "issueNumber": 91319,
+      "isPRComment": true,
+      "author": "iMoyshe",
+      "createdAt": "2026-08-29T21:25:14Z"
+    },
+    {
+      "id": 5464955058,
+      "issueNumber": 91162,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-29T21:21:33Z"
+    },
+    {
+      "id": 5464890682,
+      "issueNumber": 82608,
+      "isPRComment": true,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-29T21:07:39Z"
+    },
+    {
+      "id": 5464885404,
+      "issueNumber": 91316,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T21:06:43Z"
+    },
+    {
+      "id": 5464748948,
+      "issueNumber": 91269,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T20:36:14Z"
+    },
+    {
+      "id": 5464740873,
+      "issueNumber": 91311,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T20:34:30Z"
+    },
+    {
+      "id": 5464463501,
+      "issueNumber": 91287,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T19:42:25Z"
+    },
+    {
+      "id": 5464291744,
+      "issueNumber": 91305,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-29T19:05:26Z"
+    },
+    {
+      "id": 5464355965,
+      "issueNumber": 91140,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T19:19:22Z"
+    },
+    {
+      "id": 5464303588,
+      "issueNumber": 91140,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T19:08:03Z"
+    },
+    {
+      "id": 5464086988,
+      "issueNumber": 91274,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-29T18:21:47Z"
+    },
+    {
+      "id": 5464246698,
+      "issueNumber": 91140,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T18:56:08Z"
+    },
+    {
+      "id": 5464121394,
+      "issueNumber": 91287,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T18:29:06Z"
+    },
+    {
+      "id": 5464102275,
+      "issueNumber": 91224,
+      "isPRComment": true,
+      "author": "puemos",
+      "createdAt": "2026-08-29T18:25:00Z"
+    },
+    {
+      "id": 5463977966,
+      "issueNumber": 91291,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T17:58:36Z"
+    },
+    {
+      "id": 5463971510,
+      "issueNumber": 91298,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T17:57:10Z"
+    },
+    {
+      "id": 5463845753,
+      "issueNumber": 79181,
+      "isPRComment": false,
+      "author": "lucasheriques",
+      "createdAt": "2026-08-29T17:30:57Z"
+    },
+    {
+      "id": 5463559599,
+      "issueNumber": 91298,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T16:31:44Z"
+    },
+    {
+      "id": 5463498773,
+      "issueNumber": 91291,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T16:19:04Z"
+    },
+    {
+      "id": 5463346802,
+      "issueNumber": 91264,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T15:47:39Z"
+    },
+    {
+      "id": 5463313717,
+      "issueNumber": 91289,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T15:40:52Z"
+    },
+    {
+      "id": 5463199645,
+      "issueNumber": 90683,
+      "isPRComment": false,
+      "author": "AbdlrahmanSaberAbdo",
+      "createdAt": "2026-08-29T15:17:39Z"
+    },
+    {
+      "id": 5463172565,
+      "issueNumber": 82608,
+      "isPRComment": true,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-29T15:12:08Z"
+    },
+    {
+      "id": 5463128723,
+      "issueNumber": 82608,
+      "isPRComment": true,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-29T15:03:16Z"
+    },
+    {
+      "id": 5462789689,
+      "issueNumber": 91275,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T13:52:02Z"
+    },
+    {
+      "id": 5462515983,
+      "issueNumber": 91196,
+      "isPRComment": false,
+      "author": "jabahamondes",
+      "createdAt": "2026-08-29T12:51:22Z"
+    },
+    {
+      "id": 5462002467,
+      "issueNumber": 91171,
+      "isPRComment": true,
+      "author": "jabahamondes",
+      "createdAt": "2026-08-29T11:10:51Z"
+    },
+    {
+      "id": 5461745979,
+      "issueNumber": 91029,
+      "isPRComment": true,
+      "author": "pauldambra",
+      "createdAt": "2026-08-29T10:15:28Z"
+    },
+    {
+      "id": 5461502497,
+      "issueNumber": 88545,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-29T09:16:37Z"
+    },
+    {
+      "id": 5461291654,
+      "issueNumber": 91140,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T08:25:57Z"
+    },
+    {
+      "id": 5461288167,
+      "issueNumber": 88335,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T08:25:09Z"
+    },
+    {
+      "id": 5461255040,
+      "issueNumber": 91012,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T08:16:50Z"
+    },
+    {
+      "id": 5461249318,
+      "issueNumber": 91140,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-29T08:15:27Z"
+    },
+    {
+      "id": 5460616793,
+      "issueNumber": 91220,
+      "isPRComment": true,
+      "author": "puemos",
+      "createdAt": "2026-08-29T05:39:19Z"
+    },
+    {
+      "id": 5460523617,
+      "issueNumber": 91219,
+      "isPRComment": true,
+      "author": "puemos",
+      "createdAt": "2026-08-29T05:16:13Z"
+    },
+    {
+      "id": 5460321508,
+      "issueNumber": 91139,
+      "isPRComment": true,
+      "author": "lucasheriques",
+      "createdAt": "2026-08-29T04:25:50Z"
+    },
+    {
+      "id": 5458835341,
+      "issueNumber": 91075,
+      "isPRComment": true,
+      "author": "dmarticus",
+      "createdAt": "2026-08-28T23:31:06Z"
+    },
+    {
+      "id": 5458806500,
+      "issueNumber": 87287,
+      "isPRComment": true,
+      "author": "aspicer",
+      "createdAt": "2026-08-28T23:26:30Z"
+    },
+    {
+      "id": 5458760693,
+      "issueNumber": 90628,
+      "isPRComment": false,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T23:18:56Z"
+    },
+    {
+      "id": 5449162694,
+      "issueNumber": 87287,
+      "isPRComment": true,
+      "author": "aspicer",
+      "createdAt": "2026-08-28T06:19:24Z"
+    },
+    {
+      "id": 5458664247,
+      "issueNumber": 91098,
+      "isPRComment": true,
+      "author": "fuziontech",
+      "createdAt": "2026-08-28T23:03:59Z"
+    },
+    {
+      "id": 5458620206,
+      "issueNumber": 91153,
+      "isPRComment": true,
+      "author": "turnipdabeets",
+      "createdAt": "2026-08-28T22:57:39Z"
+    },
+    {
+      "id": 5458530029,
+      "issueNumber": 90598,
+      "isPRComment": true,
+      "author": "dmarticus",
+      "createdAt": "2026-08-28T22:44:17Z"
+    },
+    {
+      "id": 5458493967,
+      "issueNumber": 90930,
+      "isPRComment": false,
+      "author": "ksvat",
+      "createdAt": "2026-08-28T22:38:54Z"
+    },
+    {
+      "id": 5458454427,
+      "issueNumber": 86433,
+      "isPRComment": false,
+      "author": "haacked",
+      "createdAt": "2026-08-28T22:33:19Z"
+    },
+    {
+      "id": 5458386111,
+      "issueNumber": 91153,
+      "isPRComment": true,
+      "author": "turnipdabeets",
+      "createdAt": "2026-08-28T22:23:36Z"
+    },
+    {
+      "id": 5458383963,
+      "issueNumber": 91149,
+      "isPRComment": true,
+      "author": "turnipdabeets",
+      "createdAt": "2026-08-28T22:23:17Z"
+    },
+    {
+      "id": 5458347643,
+      "issueNumber": 91039,
+      "isPRComment": true,
+      "author": "dmarticus",
+      "createdAt": "2026-08-28T22:18:10Z"
+    },
+    {
+      "id": 5458219055,
+      "issueNumber": 91160,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T22:02:10Z"
+    },
+    {
+      "id": 5458184784,
+      "issueNumber": 91142,
+      "isPRComment": false,
+      "author": "ksvat",
+      "createdAt": "2026-08-28T21:57:47Z"
+    },
+    {
+      "id": 5458107300,
+      "issueNumber": 91140,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T21:47:50Z"
+    },
+    {
+      "id": 5458099511,
+      "issueNumber": 91160,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T21:46:51Z"
+    },
+    {
+      "id": 5458082036,
+      "issueNumber": 82907,
+      "isPRComment": false,
+      "author": "harryautomazione",
+      "createdAt": "2026-08-28T21:44:33Z"
+    },
+    {
+      "id": 5458064177,
+      "issueNumber": 83043,
+      "isPRComment": false,
+      "author": "harryautomazione",
+      "createdAt": "2026-08-28T21:42:17Z"
+    },
+    {
+      "id": 5458031301,
+      "issueNumber": 88759,
+      "isPRComment": true,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T21:38:20Z"
+    },
+    {
+      "id": 5457995183,
+      "issueNumber": 91137,
+      "isPRComment": false,
+      "author": "phillram",
+      "createdAt": "2026-08-28T21:33:46Z"
+    },
+    {
+      "id": 5457917215,
+      "issueNumber": 91012,
+      "isPRComment": false,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-28T21:24:29Z"
+    },
+    {
+      "id": 5457883681,
+      "issueNumber": 90605,
+      "isPRComment": false,
+      "author": "charlesvien",
+      "createdAt": "2026-08-28T21:20:26Z"
+    },
+    {
+      "id": 5457868565,
+      "issueNumber": 88759,
+      "isPRComment": true,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T21:18:42Z"
+    },
+    {
+      "id": 5457842485,
+      "issueNumber": 77998,
+      "isPRComment": true,
+      "author": "rodrigoi",
+      "createdAt": "2026-08-28T21:16:02Z"
+    },
+    {
+      "id": 5457821641,
+      "issueNumber": 72121,
+      "isPRComment": true,
+      "author": "rodrigoi",
+      "createdAt": "2026-08-28T21:13:41Z"
+    },
+    {
+      "id": 5457661998,
+      "issueNumber": 83981,
+      "isPRComment": true,
+      "author": "eli-r-ph",
+      "createdAt": "2026-08-28T20:55:13Z"
+    },
+    {
+      "id": 5457511297,
+      "issueNumber": 90956,
+      "isPRComment": true,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-28T20:37:39Z"
+    },
+    {
+      "id": 5457359452,
+      "issueNumber": 83981,
+      "isPRComment": true,
+      "author": "eli-r-ph",
+      "createdAt": "2026-08-28T20:20:31Z"
+    },
+    {
+      "id": 5457352356,
+      "issueNumber": 83981,
+      "isPRComment": true,
+      "author": "eli-r-ph",
+      "createdAt": "2026-08-28T20:19:44Z"
+    },
+    {
+      "id": 5457324321,
+      "issueNumber": 91107,
+      "isPRComment": true,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-28T20:16:34Z"
+    },
+    {
+      "id": 5457268295,
+      "issueNumber": 91018,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T20:10:26Z"
+    },
+    {
+      "id": 5457236859,
+      "issueNumber": 91081,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T20:07:01Z"
+    },
+    {
+      "id": 5457134098,
+      "issueNumber": 69150,
+      "isPRComment": false,
+      "author": "Avanderheyde",
+      "createdAt": "2026-08-28T19:56:34Z"
+    },
+    {
+      "id": 5457083147,
+      "issueNumber": 89631,
+      "isPRComment": true,
+      "author": "jzhu13",
+      "createdAt": "2026-08-28T19:51:02Z"
+    },
+    {
+      "id": 5457059319,
+      "issueNumber": 90618,
+      "isPRComment": true,
+      "author": "charlesvien",
+      "createdAt": "2026-08-28T19:48:24Z"
+    },
+    {
+      "id": 5456763352,
+      "issueNumber": 90241,
+      "isPRComment": true,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-28T19:16:26Z"
+    },
+    {
+      "id": 5456678723,
+      "issueNumber": 89693,
+      "isPRComment": false,
+      "author": "MattBro",
+      "createdAt": "2026-08-28T19:09:36Z"
+    },
+    {
+      "id": 5456509464,
+      "issueNumber": 89693,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-28T18:55:00Z"
+    },
+    {
+      "id": 5456216306,
+      "issueNumber": 90563,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T18:24:27Z"
+    },
+    {
+      "id": 5456005976,
+      "issueNumber": 90832,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T18:03:28Z"
+    },
+    {
+      "id": 5455851069,
+      "issueNumber": 88013,
+      "isPRComment": false,
+      "author": "matheus-vb",
+      "createdAt": "2026-08-28T17:49:00Z"
+    },
+    {
+      "id": 5455805592,
+      "issueNumber": 90966,
+      "isPRComment": true,
+      "author": "turnipdabeets",
+      "createdAt": "2026-08-28T17:44:14Z"
+    },
+    {
+      "id": 5455741111,
+      "issueNumber": 91020,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T17:37:44Z"
+    },
+    {
+      "id": 5455651425,
+      "issueNumber": 90563,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T17:29:07Z"
+    },
+    {
+      "id": 5455651235,
+      "issueNumber": 90568,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T17:29:06Z"
+    },
+    {
+      "id": 5455638260,
+      "issueNumber": 90832,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T17:27:47Z"
+    },
+    {
+      "id": 5455322677,
+      "issueNumber": 91029,
+      "isPRComment": true,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T16:55:52Z"
+    },
+    {
+      "id": 5455623687,
+      "issueNumber": 81445,
+      "isPRComment": true,
+      "author": "gustavohstrassburger",
+      "createdAt": "2026-08-28T17:26:17Z"
+    },
+    {
+      "id": 5455615861,
+      "issueNumber": 91055,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T17:25:29Z"
+    },
+    {
+      "id": 5455608176,
+      "issueNumber": 91057,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T17:24:41Z"
+    },
+    {
+      "id": 5455547746,
+      "issueNumber": 91058,
+      "isPRComment": false,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T17:18:24Z"
+    },
+    {
+      "id": 5455534769,
+      "issueNumber": 86764,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T17:17:04Z"
+    },
+    {
+      "id": 5455515232,
+      "issueNumber": 91020,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T17:15:08Z"
+    },
+    {
+      "id": 5455512395,
+      "issueNumber": 91055,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T17:14:50Z"
+    },
+    {
+      "id": 5455490969,
+      "issueNumber": 86104,
+      "isPRComment": false,
+      "author": "dmarticus",
+      "createdAt": "2026-08-28T17:12:38Z"
+    },
+    {
+      "id": 5455446208,
+      "issueNumber": 83335,
+      "isPRComment": false,
+      "author": "sakce",
+      "createdAt": "2026-08-28T17:08:03Z"
+    },
+    {
+      "id": 5455393105,
+      "issueNumber": 86986,
+      "isPRComment": false,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-28T17:03:00Z"
+    },
+    {
+      "id": 5455221699,
+      "issueNumber": 82953,
+      "isPRComment": false,
+      "author": "dmarchuk",
+      "createdAt": "2026-08-28T16:45:21Z"
+    },
+    {
+      "id": 5455079767,
+      "issueNumber": 90973,
+      "isPRComment": true,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T16:32:03Z"
+    },
+    {
+      "id": 5455215505,
+      "issueNumber": 90409,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-28T16:44:43Z"
+    },
+    {
+      "id": 5455214246,
+      "issueNumber": 90404,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-28T16:44:35Z"
+    },
+    {
+      "id": 5455213035,
+      "issueNumber": 90400,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-28T16:44:28Z"
+    },
+    {
+      "id": 5455201183,
+      "issueNumber": 91017,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-28T16:43:17Z"
+    },
+    {
+      "id": 5455167990,
+      "issueNumber": 90499,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-28T16:39:56Z"
+    },
+    {
+      "id": 5455167755,
+      "issueNumber": 90409,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-28T16:39:54Z"
+    },
+    {
+      "id": 5455167495,
+      "issueNumber": 90404,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-28T16:39:53Z"
+    },
+    {
+      "id": 5455167305,
+      "issueNumber": 90400,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-28T16:39:52Z"
+    },
+    {
+      "id": 5455120681,
+      "issueNumber": 91020,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T16:35:24Z"
+    },
+    {
+      "id": 5455024734,
+      "issueNumber": 91000,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T16:26:39Z"
+    },
+    {
+      "id": 5454821136,
+      "issueNumber": 80009,
+      "isPRComment": true,
+      "author": "eli-r-ph",
+      "createdAt": "2026-08-28T16:07:00Z"
+    },
+    {
+      "id": 5454535588,
+      "issueNumber": 90842,
+      "isPRComment": true,
+      "author": "jonmcwest",
+      "createdAt": "2026-08-28T15:39:11Z"
+    },
+    {
+      "id": 5454493784,
+      "issueNumber": 90240,
+      "isPRComment": true,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-28T15:35:11Z"
+    },
+    {
+      "id": 5454472417,
+      "issueNumber": 90874,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-28T15:33:07Z"
+    },
+    {
+      "id": 5454462691,
+      "issueNumber": 85619,
+      "isPRComment": false,
+      "author": "jericopingul",
+      "createdAt": "2026-08-28T15:32:10Z"
+    },
+    {
+      "id": 5454426761,
+      "issueNumber": 90676,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T15:28:45Z"
+    },
+    {
+      "id": 5454336574,
+      "issueNumber": 90945,
+      "isPRComment": true,
+      "author": "fasyy612",
+      "createdAt": "2026-08-28T15:20:30Z"
+    },
+    {
+      "id": 5454214921,
+      "issueNumber": 90970,
+      "isPRComment": false,
+      "author": "gustavohstrassburger",
+      "createdAt": "2026-08-28T15:09:26Z"
+    },
+    {
+      "id": 5454183323,
+      "issueNumber": 74331,
+      "isPRComment": false,
+      "author": "rubychilds",
+      "createdAt": "2026-08-28T15:06:31Z"
+    },
+    {
+      "id": 5454024428,
+      "issueNumber": 90619,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T14:52:17Z"
+    },
+    {
+      "id": 5454012239,
+      "issueNumber": 89785,
+      "isPRComment": false,
+      "author": "seanpem",
+      "createdAt": "2026-08-28T14:51:07Z"
+    },
+    {
+      "id": 5453973814,
+      "issueNumber": 89818,
+      "isPRComment": true,
+      "author": "gantoine",
+      "createdAt": "2026-08-28T14:47:53Z"
+    },
+    {
+      "id": 5453806663,
+      "issueNumber": 90917,
+      "isPRComment": false,
+      "author": "patricio-posthog",
+      "createdAt": "2026-08-28T14:32:51Z"
+    },
+    {
+      "id": 5453802540,
+      "issueNumber": 90899,
+      "isPRComment": false,
+      "author": "patricio-posthog",
+      "createdAt": "2026-08-28T14:32:36Z"
+    },
+    {
+      "id": 5453785887,
+      "issueNumber": 90875,
+      "isPRComment": true,
+      "author": "mayteio",
+      "createdAt": "2026-08-28T14:31:37Z"
+    },
+    {
+      "id": 5453761214,
+      "issueNumber": 90594,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T14:29:24Z"
+    },
+    {
+      "id": 5453735251,
+      "issueNumber": 90894,
+      "isPRComment": true,
+      "author": "puemos",
+      "createdAt": "2026-08-28T14:27:02Z"
+    },
+    {
+      "id": 5453687675,
+      "issueNumber": 90851,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T14:22:44Z"
+    },
+    {
+      "id": 5453661558,
+      "issueNumber": 86762,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T14:20:27Z"
+    },
+    {
+      "id": 5453437583,
+      "issueNumber": 80554,
+      "isPRComment": true,
+      "author": "jabahamondes",
+      "createdAt": "2026-08-28T14:00:26Z"
+    },
+    {
+      "id": 5453428177,
+      "issueNumber": 90844,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T13:59:32Z"
+    },
+    {
+      "id": 5453387896,
+      "issueNumber": 90312,
+      "isPRComment": true,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-28T13:55:40Z"
+    },
+    {
+      "id": 5453369285,
+      "issueNumber": 74331,
+      "isPRComment": false,
+      "author": "rubychilds",
+      "createdAt": "2026-08-28T13:53:55Z"
+    },
+    {
+      "id": 5453345842,
+      "issueNumber": 86762,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T13:51:34Z"
+    },
+    {
+      "id": 5453287917,
+      "issueNumber": 90606,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T13:46:03Z"
+    },
+    {
+      "id": 5453285886,
+      "issueNumber": 90842,
+      "isPRComment": true,
+      "author": "jonmcwest",
+      "createdAt": "2026-08-28T13:45:50Z"
+    },
+    {
+      "id": 5453264751,
+      "issueNumber": 90897,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T13:43:48Z"
+    },
+    {
+      "id": 5453195846,
+      "issueNumber": 89927,
+      "isPRComment": false,
+      "author": "frankh",
+      "createdAt": "2026-08-28T13:37:15Z"
+    },
+    {
+      "id": 5453180977,
+      "issueNumber": 90569,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T13:35:47Z"
+    },
+    {
+      "id": 5453135837,
+      "issueNumber": 88739,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T13:31:25Z"
+    },
+    {
+      "id": 5452951933,
+      "issueNumber": 90159,
+      "isPRComment": false,
+      "author": "bernatixer",
+      "createdAt": "2026-08-28T13:13:12Z"
+    },
+    {
+      "id": 5453126319,
+      "issueNumber": 90887,
+      "isPRComment": true,
+      "author": "bernatixer",
+      "createdAt": "2026-08-28T13:30:29Z"
+    },
+    {
+      "id": 5453100362,
+      "issueNumber": 90183,
+      "isPRComment": true,
+      "author": "puemos",
+      "createdAt": "2026-08-28T13:27:54Z"
+    },
+    {
+      "id": 5453099361,
+      "issueNumber": 89381,
+      "isPRComment": true,
+      "author": "puemos",
+      "createdAt": "2026-08-28T13:27:48Z"
+    },
+    {
+      "id": 5453064267,
+      "issueNumber": 86762,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T13:24:20Z"
+    },
+    {
+      "id": 5452933791,
+      "issueNumber": 86762,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T13:11:29Z"
+    },
+    {
+      "id": 5452825103,
+      "issueNumber": 90561,
+      "isPRComment": true,
+      "author": "mayteio",
+      "createdAt": "2026-08-28T13:02:03Z"
+    },
+    {
+      "id": 5452809122,
+      "issueNumber": 90569,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-28T13:00:29Z"
+    },
+    {
+      "id": 5452746389,
+      "issueNumber": 85619,
+      "isPRComment": false,
+      "author": "kubo6472",
+      "createdAt": "2026-08-28T12:54:08Z"
+    },
+    {
+      "id": 5452739123,
+      "issueNumber": 89810,
+      "isPRComment": true,
+      "author": "puemos",
+      "createdAt": "2026-08-28T12:53:24Z"
+    },
+    {
+      "id": 5452715274,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:50:56Z"
+    },
+    {
+      "id": 5452701645,
+      "issueNumber": 85619,
+      "isPRComment": false,
+      "author": "jericopingul",
+      "createdAt": "2026-08-28T12:49:31Z"
+    },
+    {
+      "id": 5452618668,
+      "issueNumber": 90838,
+      "isPRComment": true,
+      "author": "fasyy612",
+      "createdAt": "2026-08-28T12:40:34Z"
+    },
+    {
+      "id": 5452599923,
+      "issueNumber": 55519,
+      "isPRComment": false,
+      "author": "christiaan-ph",
+      "createdAt": "2026-08-28T12:38:31Z"
+    },
+    {
+      "id": 5452559630,
+      "issueNumber": 88335,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T12:34:13Z"
+    },
+    {
+      "id": 5452476735,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:25:06Z"
+    },
+    {
+      "id": 5452476575,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:25:05Z"
+    },
+    {
+      "id": 5452476438,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:25:04Z"
+    },
+    {
+      "id": 5452476278,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:25:03Z"
+    },
+    {
+      "id": 5452476121,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:25:02Z"
+    },
+    {
+      "id": 5452475966,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:25:01Z"
+    },
+    {
+      "id": 5452475850,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:25:00Z"
+    },
+    {
+      "id": 5452475718,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:24:59Z"
+    },
+    {
+      "id": 5452475618,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:24:58Z"
+    },
+    {
+      "id": 5452475456,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:24:57Z"
+    },
+    {
+      "id": 5452475327,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:24:56Z"
+    },
+    {
+      "id": 5452475181,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:24:55Z"
+    },
+    {
+      "id": 5452475045,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:24:54Z"
+    },
+    {
+      "id": 5452474912,
+      "issueNumber": 90850,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:24:54Z"
+    },
+    {
+      "id": 5452346857,
+      "issueNumber": 90805,
+      "isPRComment": true,
+      "author": "pauldambra",
+      "createdAt": "2026-08-28T12:10:49Z"
+    },
+    {
+      "id": 5452297678,
+      "issueNumber": 87048,
+      "isPRComment": true,
+      "author": "adboio",
+      "createdAt": "2026-08-28T12:05:44Z"
+    },
+    {
+      "id": 5452198365,
+      "issueNumber": 90171,
+      "isPRComment": true,
+      "author": "JamesPatrickGill",
+      "createdAt": "2026-08-28T11:55:09Z"
+    },
+    {
+      "id": 5452097831,
+      "issueNumber": 90304,
+      "isPRComment": true,
+      "author": "mayteio",
+      "createdAt": "2026-08-28T11:43:28Z"
+    },
+    {
+      "id": 5452095353,
+      "issueNumber": 90304,
+      "isPRComment": true,
+      "author": "mayteio",
+      "createdAt": "2026-08-28T11:43:11Z"
+    },
+    {
+      "id": 5452015629,
+      "issueNumber": 90752,
+      "isPRComment": true,
+      "author": "webjunkie",
+      "createdAt": "2026-08-28T11:33:49Z"
+    },
+    {
+      "id": 5452009817,
+      "issueNumber": 89077,
+      "isPRComment": true,
+      "author": "puemos",
+      "createdAt": "2026-08-28T11:33:09Z"
+    },
+    {
+      "id": 5451902508,
+      "issueNumber": 90794,
+      "isPRComment": true,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-28T11:22:00Z"
+    },
+    {
+      "id": 5451899347,
+      "issueNumber": 90304,
+      "isPRComment": true,
+      "author": "mayteio",
+      "createdAt": "2026-08-28T11:21:42Z"
+    },
+    {
+      "id": 5451895981,
+      "issueNumber": 90641,
+      "isPRComment": true,
+      "author": "webjunkie",
+      "createdAt": "2026-08-28T11:21:23Z"
+    },
+    {
+      "id": 5451880294,
+      "issueNumber": 90675,
+      "isPRComment": true,
+      "author": "webjunkie",
+      "createdAt": "2026-08-28T11:19:54Z"
+    },
+    {
+      "id": 5451793556,
+      "issueNumber": 88195,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T11:11:15Z"
+    },
+    {
+      "id": 5451775503,
+      "issueNumber": 90109,
+      "isPRComment": true,
+      "author": "mayteio",
+      "createdAt": "2026-08-28T11:09:46Z"
+    },
+    {
+      "id": 5451738466,
+      "issueNumber": 90101,
+      "isPRComment": true,
+      "author": "georgemunyoro",
+      "createdAt": "2026-08-28T11:05:41Z"
+    },
+    {
+      "id": 5451734424,
+      "issueNumber": 90226,
+      "isPRComment": true,
+      "author": "georgemunyoro",
+      "createdAt": "2026-08-28T11:05:19Z"
+    },
+    {
+      "id": 5451726127,
+      "issueNumber": 88079,
+      "isPRComment": true,
+      "author": "thiagosalvatore",
+      "createdAt": "2026-08-28T11:04:22Z"
+    },
+    {
+      "id": 5451693193,
+      "issueNumber": 90539,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-28T11:00:33Z"
+    },
+    {
+      "id": 5451690565,
+      "issueNumber": 90140,
+      "isPRComment": true,
+      "author": "webjunkie",
+      "createdAt": "2026-08-28T11:00:15Z"
+    },
+    {
+      "id": 5451670861,
+      "issueNumber": 84504,
+      "isPRComment": false,
+      "author": "richardsolomou",
+      "createdAt": "2026-08-28T10:57:52Z"
+    },
+    {
+      "id": 5451513763,
+      "issueNumber": 90109,
+      "isPRComment": true,
+      "author": "mayteio",
+      "createdAt": "2026-08-28T10:39:21Z"
+    },
+    {
+      "id": 5451471283,
+      "issueNumber": 90502,
+      "isPRComment": true,
+      "author": "k11kirky",
+      "createdAt": "2026-08-28T10:34:38Z"
+    },
+    {
+      "id": 5451432144,
+      "issueNumber": 90667,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-28T10:30:11Z"
+    },
+    {
+      "id": 5451428605,
+      "issueNumber": 88335,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T10:29:47Z"
+    },
+    {
+      "id": 5451375316,
+      "issueNumber": 90216,
+      "isPRComment": true,
+      "author": "JamesPatrickGill",
+      "createdAt": "2026-08-28T10:23:44Z"
+    },
+    {
+      "id": 5451318867,
+      "issueNumber": 90384,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-28T10:17:08Z"
+    },
+    {
+      "id": 5451294553,
+      "issueNumber": 90753,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-28T10:14:26Z"
+    },
+    {
+      "id": 5451269374,
+      "issueNumber": 90713,
+      "isPRComment": true,
+      "author": "webjunkie",
+      "createdAt": "2026-08-28T10:11:46Z"
+    },
+    {
+      "id": 5451073936,
+      "issueNumber": 80615,
+      "isPRComment": false,
+      "author": "k11kirky",
+      "createdAt": "2026-08-28T09:52:01Z"
+    },
+    {
+      "id": 5451053150,
+      "issueNumber": 55307,
+      "isPRComment": false,
+      "author": "ramarivera",
+      "createdAt": "2026-08-28T09:49:42Z"
+    },
+    {
+      "id": 5450899746,
+      "issueNumber": 80364,
+      "isPRComment": true,
+      "author": "k11kirky",
+      "createdAt": "2026-08-28T09:34:06Z"
+    },
+    {
+      "id": 5450892586,
+      "issueNumber": 90135,
+      "isPRComment": true,
+      "author": "JamesPatrickGill",
+      "createdAt": "2026-08-28T09:33:18Z"
+    },
+    {
+      "id": 5450884467,
+      "issueNumber": 90713,
+      "isPRComment": true,
+      "author": "webjunkie",
+      "createdAt": "2026-08-28T09:32:24Z"
+    },
+    {
+      "id": 5450868833,
+      "issueNumber": 90545,
+      "isPRComment": true,
+      "author": "fasyy612",
+      "createdAt": "2026-08-28T09:30:44Z"
+    },
+    {
+      "id": 5450806784,
+      "issueNumber": 80364,
+      "isPRComment": true,
+      "author": "k11kirky",
+      "createdAt": "2026-08-28T09:24:24Z"
+    },
+    {
+      "id": 5450755391,
+      "issueNumber": 85619,
+      "isPRComment": false,
+      "author": "kubo6472",
+      "createdAt": "2026-08-28T09:19:46Z"
+    },
+    {
+      "id": 5450651384,
+      "issueNumber": 90105,
+      "isPRComment": true,
+      "author": "adamleithp",
+      "createdAt": "2026-08-28T09:11:01Z"
+    },
+    {
+      "id": 5450547446,
+      "issueNumber": 90021,
+      "isPRComment": true,
+      "author": "webjunkie",
+      "createdAt": "2026-08-28T09:00:53Z"
+    },
+    {
+      "id": 5450388318,
+      "issueNumber": 88530,
+      "isPRComment": false,
+      "author": "thmsobrmlr",
+      "createdAt": "2026-08-28T08:43:18Z"
+    },
+    {
+      "id": 5450372801,
+      "issueNumber": 90384,
+      "isPRComment": true,
+      "author": "thmsobrmlr",
+      "createdAt": "2026-08-28T08:41:36Z"
+    },
+    {
+      "id": 5450271992,
+      "issueNumber": 85987,
+      "isPRComment": true,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-28T08:30:27Z"
+    },
+    {
+      "id": 5450200509,
+      "issueNumber": 85987,
+      "isPRComment": true,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-28T08:22:42Z"
+    },
+    {
+      "id": 5450193256,
+      "issueNumber": 85987,
+      "isPRComment": true,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-28T08:21:55Z"
+    },
+    {
+      "id": 5450046437,
+      "issueNumber": 89990,
+      "isPRComment": false,
+      "author": "tomasfarias",
+      "createdAt": "2026-08-28T08:06:23Z"
+    },
+    {
+      "id": 5449974081,
+      "issueNumber": 90021,
+      "isPRComment": true,
+      "author": "webjunkie",
+      "createdAt": "2026-08-28T07:58:18Z"
+    },
+    {
+      "id": 5449944098,
+      "issueNumber": 85987,
+      "isPRComment": true,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-28T07:54:52Z"
+    },
+    {
+      "id": 5449803495,
+      "issueNumber": 88003,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T07:38:58Z"
+    },
+    {
+      "id": 5449693068,
+      "issueNumber": 90273,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T07:26:34Z"
+    },
+    {
+      "id": 5449669319,
+      "issueNumber": 90236,
+      "isPRComment": true,
+      "author": "thmsobrmlr",
+      "createdAt": "2026-08-28T07:23:51Z"
+    },
+    {
+      "id": 5449281295,
+      "issueNumber": 89844,
+      "isPRComment": true,
+      "author": "webjunkie",
+      "createdAt": "2026-08-28T06:35:26Z"
+    },
+    {
+      "id": 5449097024,
+      "issueNumber": 90694,
+      "isPRComment": false,
+      "author": "marandaneto",
+      "createdAt": "2026-08-28T06:10:07Z"
+    },
+    {
+      "id": 5449075963,
+      "issueNumber": 90590,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T06:07:14Z"
+    },
+    {
+      "id": 5449063374,
+      "issueNumber": 90676,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-28T06:05:24Z"
+    },
+    {
+      "id": 5448744812,
+      "issueNumber": 87323,
+      "isPRComment": true,
+      "author": "aspicer",
+      "createdAt": "2026-08-28T05:16:59Z"
+    },
+    {
+      "id": 5448743635,
+      "issueNumber": 87282,
+      "isPRComment": true,
+      "author": "aspicer",
+      "createdAt": "2026-08-28T05:16:49Z"
+    },
+    {
+      "id": 5448631807,
+      "issueNumber": 90680,
+      "isPRComment": false,
+      "author": "charlesvien",
+      "createdAt": "2026-08-28T04:59:11Z"
+    },
+    {
+      "id": 5448587240,
+      "issueNumber": 90679,
+      "isPRComment": false,
+      "author": "charlesvien",
+      "createdAt": "2026-08-28T04:51:56Z"
+    },
+    {
+      "id": 5448388017,
+      "issueNumber": 90680,
+      "isPRComment": false,
+      "author": "charlesvien",
+      "createdAt": "2026-08-28T04:21:21Z"
+    },
+    {
+      "id": 5448333923,
+      "issueNumber": 90605,
+      "isPRComment": false,
+      "author": "charlesvien",
+      "createdAt": "2026-08-28T04:16:16Z"
+    },
+    {
+      "id": 5448296270,
+      "issueNumber": 88526,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-28T04:10:52Z"
+    },
+    {
+      "id": 5448294953,
+      "issueNumber": 88056,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-28T04:10:40Z"
+    },
+    {
+      "id": 5447964868,
+      "issueNumber": 90636,
+      "isPRComment": true,
+      "author": "charlesvien",
+      "createdAt": "2026-08-28T03:17:22Z"
+    },
+    {
+      "id": 5447778050,
+      "issueNumber": 90605,
+      "isPRComment": false,
+      "author": "charlesvien",
+      "createdAt": "2026-08-28T02:49:07Z"
+    },
+    {
+      "id": 5447578034,
+      "issueNumber": 74401,
+      "isPRComment": true,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-28T02:18:22Z"
+    },
+    {
+      "id": 5447015721,
+      "issueNumber": 90634,
+      "isPRComment": true,
+      "author": "eli-r-ph",
+      "createdAt": "2026-08-28T00:53:57Z"
+    },
+    {
+      "id": 5446915389,
+      "issueNumber": 89828,
+      "isPRComment": false,
+      "author": "vmaineng",
+      "createdAt": "2026-08-28T00:38:29Z"
+    },
+    {
+      "id": 5446902493,
+      "issueNumber": 17031,
+      "isPRComment": false,
+      "author": "darkopia",
+      "createdAt": "2026-08-28T00:36:28Z"
+    },
+    {
+      "id": 5446578201,
+      "issueNumber": 90618,
+      "isPRComment": true,
+      "author": "charlesvien",
+      "createdAt": "2026-08-27T23:50:07Z"
+    },
+    {
+      "id": 5446170329,
+      "issueNumber": 90578,
+      "isPRComment": true,
+      "author": "adamleithp",
+      "createdAt": "2026-08-27T22:53:31Z"
+    },
+    {
+      "id": 5446077436,
+      "issueNumber": 71650,
+      "isPRComment": true,
+      "author": "haacked",
+      "createdAt": "2026-08-27T22:41:18Z"
+    },
+    {
+      "id": 5445911793,
+      "issueNumber": 90578,
+      "isPRComment": true,
+      "author": "adamleithp",
+      "createdAt": "2026-08-27T22:22:43Z"
+    },
+    {
+      "id": 5445864853,
+      "issueNumber": 88055,
+      "isPRComment": true,
+      "author": "jzhu13",
+      "createdAt": "2026-08-27T22:16:56Z"
+    },
+    {
+      "id": 5445764009,
+      "issueNumber": 90578,
+      "isPRComment": true,
+      "author": "adamleithp",
+      "createdAt": "2026-08-27T22:04:56Z"
+    },
+    {
+      "id": 5445525957,
+      "issueNumber": 83569,
+      "isPRComment": true,
+      "author": "arthurdedeus",
+      "createdAt": "2026-08-27T21:37:57Z"
+    },
+    {
+      "id": 5445479112,
+      "issueNumber": 88801,
+      "isPRComment": true,
+      "author": "phillram",
+      "createdAt": "2026-08-27T21:32:52Z"
+    },
+    {
+      "id": 5445442155,
+      "issueNumber": 90563,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-27T21:28:53Z"
+    },
+    {
+      "id": 5445418110,
+      "issueNumber": 90481,
+      "isPRComment": true,
+      "author": "fasyy612",
+      "createdAt": "2026-08-27T21:26:17Z"
+    },
+    {
+      "id": 5445391446,
+      "issueNumber": 90540,
+      "isPRComment": true,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-27T21:23:26Z"
+    },
+    {
+      "id": 5445199461,
+      "issueNumber": 74364,
+      "isPRComment": true,
+      "author": "rafaeelaudibert",
+      "createdAt": "2026-08-27T21:04:01Z"
+    },
+    {
+      "id": 5445102795,
+      "issueNumber": 83335,
+      "isPRComment": false,
+      "author": "sakce",
+      "createdAt": "2026-08-27T20:54:24Z"
+    },
+    {
+      "id": 5445045597,
+      "issueNumber": 90481,
+      "isPRComment": true,
+      "author": "fasyy612",
+      "createdAt": "2026-08-27T20:48:46Z"
+    },
+    {
+      "id": 5445043346,
+      "issueNumber": 90522,
+      "isPRComment": true,
+      "author": "turnipdabeets",
+      "createdAt": "2026-08-27T20:48:33Z"
+    },
+    {
+      "id": 5445031758,
+      "issueNumber": 78445,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-27T20:47:25Z"
+    },
+    {
+      "id": 5444993088,
+      "issueNumber": 88758,
+      "isPRComment": true,
+      "author": "MattBro",
+      "createdAt": "2026-08-27T20:43:37Z"
+    },
+    {
+      "id": 5444966294,
+      "issueNumber": 55858,
+      "isPRComment": false,
+      "author": "jannisbecker",
+      "createdAt": "2026-08-27T20:40:55Z"
+    },
+    {
+      "id": 5444965417,
+      "issueNumber": 90499,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T20:40:50Z"
+    },
+    {
+      "id": 5444955858,
+      "issueNumber": 81441,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T20:39:54Z"
+    },
+    {
+      "id": 5444827359,
+      "issueNumber": 90521,
+      "isPRComment": true,
+      "author": "turnipdabeets",
+      "createdAt": "2026-08-27T20:27:18Z"
+    },
+    {
+      "id": 5444813154,
+      "issueNumber": 89707,
+      "isPRComment": true,
+      "author": "k11kirky",
+      "createdAt": "2026-08-27T20:25:53Z"
+    },
+    {
+      "id": 5444744273,
+      "issueNumber": 88079,
+      "isPRComment": true,
+      "author": "thiagosalvatore",
+      "createdAt": "2026-08-27T20:19:08Z"
+    },
+    {
+      "id": 5444697690,
+      "issueNumber": 90182,
+      "isPRComment": false,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T20:14:30Z"
+    },
+    {
+      "id": 5444697545,
+      "issueNumber": 90182,
+      "isPRComment": false,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T20:14:29Z"
+    },
+    {
+      "id": 5444697352,
+      "issueNumber": 90182,
+      "isPRComment": false,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T20:14:28Z"
+    },
+    {
+      "id": 5444697212,
+      "issueNumber": 90182,
+      "isPRComment": false,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T20:14:27Z"
+    },
+    {
+      "id": 5444697074,
+      "issueNumber": 90182,
+      "isPRComment": false,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T20:14:26Z"
+    },
+    {
+      "id": 5444643838,
+      "issueNumber": 88905,
+      "isPRComment": true,
+      "author": "ksvat",
+      "createdAt": "2026-08-27T20:09:19Z"
+    },
+    {
+      "id": 5444567069,
+      "issueNumber": 90003,
+      "isPRComment": true,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-27T20:02:10Z"
+    },
+    {
+      "id": 5444469750,
+      "issueNumber": 62146,
+      "isPRComment": false,
+      "author": "gustavohstrassburger",
+      "createdAt": "2026-08-27T19:53:19Z"
+    },
+    {
+      "id": 5444461128,
+      "issueNumber": 81426,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T19:52:30Z"
+    },
+    {
+      "id": 5444441655,
+      "issueNumber": 30610,
+      "isPRComment": false,
+      "author": "gustavohstrassburger",
+      "createdAt": "2026-08-27T19:50:36Z"
+    },
+    {
+      "id": 5444392066,
+      "issueNumber": 90395,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T19:45:45Z"
+    },
+    {
+      "id": 5444375794,
+      "issueNumber": 81425,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T19:44:14Z"
+    },
+    {
+      "id": 5444290258,
+      "issueNumber": 88723,
+      "isPRComment": true,
+      "author": "phillram",
+      "createdAt": "2026-08-27T19:36:41Z"
+    },
+    {
+      "id": 5444218757,
+      "issueNumber": 90465,
+      "isPRComment": true,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-27T19:29:52Z"
+    },
+    {
+      "id": 5444216854,
+      "issueNumber": 82573,
+      "isPRComment": false,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-27T19:29:41Z"
+    },
+    {
+      "id": 5444204684,
+      "issueNumber": 87555,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-27T19:28:29Z"
+    },
+    {
+      "id": 5444189539,
+      "issueNumber": 90038,
+      "isPRComment": true,
+      "author": "cvolzer3",
+      "createdAt": "2026-08-27T19:27:01Z"
+    },
+    {
+      "id": 5444122505,
+      "issueNumber": 84322,
+      "isPRComment": true,
+      "author": "joethreepwood",
+      "createdAt": "2026-08-27T19:20:42Z"
+    },
+    {
+      "id": 5444098073,
+      "issueNumber": 89927,
+      "isPRComment": false,
+      "author": "frankh",
+      "createdAt": "2026-08-27T19:18:26Z"
+    },
+    {
+      "id": 5441957464,
+      "issueNumber": 89927,
+      "isPRComment": false,
+      "author": "frankh",
+      "createdAt": "2026-08-27T16:15:04Z"
+    },
+    {
+      "id": 5444076454,
+      "issueNumber": 90483,
+      "isPRComment": true,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T19:16:18Z"
+    },
+    {
+      "id": 5443956114,
+      "issueNumber": 79807,
+      "isPRComment": true,
+      "author": "gustavohstrassburger",
+      "createdAt": "2026-08-27T19:06:05Z"
+    },
+    {
+      "id": 4837799001,
+      "issueNumber": 64549,
+      "isPRComment": true,
+      "author": "Chinmay1220",
+      "createdAt": "2026-06-29T22:27:30Z"
+    },
+    {
+      "id": 5443757781,
+      "issueNumber": 90422,
+      "isPRComment": true,
+      "author": "ksvat",
+      "createdAt": "2026-08-27T18:48:44Z"
+    },
+    {
+      "id": 5443730401,
+      "issueNumber": 88078,
+      "isPRComment": true,
+      "author": "thiagosalvatore",
+      "createdAt": "2026-08-27T18:46:42Z"
+    },
+    {
+      "id": 5443613453,
+      "issueNumber": 82573,
+      "isPRComment": false,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-27T18:37:24Z"
+    },
+    {
+      "id": 5443418234,
+      "issueNumber": 90396,
+      "isPRComment": true,
+      "author": "ReeceJones",
+      "createdAt": "2026-08-27T18:20:57Z"
+    },
+    {
+      "id": 5443415410,
+      "issueNumber": 82573,
+      "isPRComment": false,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-27T18:20:43Z"
+    },
+    {
+      "id": 5443413516,
+      "issueNumber": 62088,
+      "isPRComment": false,
+      "author": "hwittenborn",
+      "createdAt": "2026-08-27T18:20:33Z"
+    },
+    {
+      "id": 5443397395,
+      "issueNumber": 89986,
+      "isPRComment": true,
+      "author": "jonathanlab",
+      "createdAt": "2026-08-27T18:19:14Z"
+    },
+    {
+      "id": 5443365248,
+      "issueNumber": 90386,
+      "isPRComment": true,
+      "author": "feliperalmeida",
+      "createdAt": "2026-08-27T18:16:39Z"
+    },
+    {
+      "id": 5443175014,
+      "issueNumber": 89927,
+      "isPRComment": false,
+      "author": "frankh",
+      "createdAt": "2026-08-27T18:01:34Z"
+    },
+    {
+      "id": 5443144998,
+      "issueNumber": 90175,
+      "isPRComment": true,
+      "author": "adamleithp",
+      "createdAt": "2026-08-27T17:59:05Z"
+    },
+    {
+      "id": 5443078368,
+      "issueNumber": 82302,
+      "isPRComment": false,
+      "author": "arnohillen",
+      "createdAt": "2026-08-27T17:53:36Z"
+    },
+    {
+      "id": 5442962923,
+      "issueNumber": 84322,
+      "isPRComment": true,
+      "author": "joethreepwood",
+      "createdAt": "2026-08-27T17:43:43Z"
+    },
+    {
+      "id": 5442823709,
+      "issueNumber": 89834,
+      "isPRComment": true,
+      "author": "ablaszkiewicz",
+      "createdAt": "2026-08-27T17:31:25Z"
+    },
+    {
+      "id": 5442719477,
+      "issueNumber": 90315,
+      "isPRComment": false,
+      "author": "jonmcwest",
+      "createdAt": "2026-08-27T17:22:07Z"
+    },
+    {
+      "id": 5442586832,
+      "issueNumber": 84537,
+      "isPRComment": true,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-27T17:09:58Z"
+    },
+    {
+      "id": 5442585596,
+      "issueNumber": 88818,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-27T17:09:52Z"
+    },
+    {
+      "id": 5442585354,
+      "issueNumber": 85749,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-27T17:09:51Z"
+    },
+    {
+      "id": 5442585104,
+      "issueNumber": 88816,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-27T17:09:49Z"
+    },
+    {
+      "id": 5442584863,
+      "issueNumber": 85750,
+      "isPRComment": false,
+      "author": "jakesciotto",
+      "createdAt": "2026-08-27T17:09:48Z"
+    },
+    {
+      "id": 5442520813,
+      "issueNumber": 90205,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-27T17:04:05Z"
+    },
+    {
+      "id": 5442508745,
+      "issueNumber": 90325,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-27T17:02:58Z"
+    },
+    {
+      "id": 5442358461,
+      "issueNumber": 84322,
+      "isPRComment": true,
+      "author": "joethreepwood",
+      "createdAt": "2026-08-27T16:49:34Z"
+    },
+    {
+      "id": 5442277204,
+      "issueNumber": 89779,
+      "isPRComment": true,
+      "author": "haacked",
+      "createdAt": "2026-08-27T16:42:41Z"
+    },
+    {
+      "id": 5442244684,
+      "issueNumber": 89744,
+      "isPRComment": true,
+      "author": "pauldambra",
+      "createdAt": "2026-08-27T16:39:47Z"
+    },
+    {
+      "id": 5442125014,
+      "issueNumber": 84276,
+      "isPRComment": true,
+      "author": "thiagosalvatore",
+      "createdAt": "2026-08-27T16:29:39Z"
+    },
+    {
+      "id": 5442059795,
+      "issueNumber": 90237,
+      "isPRComment": true,
+      "author": "gantoine",
+      "createdAt": "2026-08-27T16:24:02Z"
+    },
+    {
+      "id": 5442053790,
+      "issueNumber": 85592,
+      "isPRComment": true,
+      "author": "pauldambra",
+      "createdAt": "2026-08-27T16:23:29Z"
+    },
+    {
+      "id": 5442051269,
+      "issueNumber": 90205,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-27T16:23:16Z"
+    },
+    {
+      "id": 5442016869,
+      "issueNumber": 89986,
+      "isPRComment": true,
+      "author": "jonathanlab",
+      "createdAt": "2026-08-27T16:20:11Z"
+    },
+    {
+      "id": 5442011823,
+      "issueNumber": 88195,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-27T16:19:44Z"
+    },
+    {
+      "id": 5441996135,
+      "issueNumber": 88195,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-27T16:18:22Z"
+    },
+    {
+      "id": 5441929100,
+      "issueNumber": 82573,
+      "isPRComment": false,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-27T16:12:37Z"
+    },
+    {
+      "id": 5441832858,
+      "issueNumber": 90205,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-27T16:04:26Z"
+    },
+    {
+      "id": 5441816828,
+      "issueNumber": 90082,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-27T16:03:04Z"
+    },
+    {
+      "id": 5441790161,
+      "issueNumber": 88709,
+      "isPRComment": true,
+      "author": "MattBro",
+      "createdAt": "2026-08-27T16:00:50Z"
+    },
+    {
+      "id": 5441749355,
+      "issueNumber": 90270,
+      "isPRComment": false,
+      "author": "alinph",
+      "createdAt": "2026-08-27T15:57:32Z"
+    },
+    {
+      "id": 5441698721,
+      "issueNumber": 90175,
+      "isPRComment": true,
+      "author": "adamleithp",
+      "createdAt": "2026-08-27T15:53:23Z"
+    },
+    {
+      "id": 5441667759,
+      "issueNumber": 90175,
+      "isPRComment": true,
+      "author": "adamleithp",
+      "createdAt": "2026-08-27T15:50:49Z"
+    },
+    {
+      "id": 5441645662,
+      "issueNumber": 90242,
+      "isPRComment": true,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-27T15:48:58Z"
+    },
+    {
+      "id": 5441644743,
+      "issueNumber": 88195,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-27T15:48:53Z"
+    },
+    {
+      "id": 5441372833,
+      "issueNumber": 90082,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-27T15:27:02Z"
+    },
+    {
+      "id": 5441293553,
+      "issueNumber": 90158,
+      "isPRComment": true,
+      "author": "gantoine",
+      "createdAt": "2026-08-27T15:20:44Z"
+    },
+    {
+      "id": 5441276123,
+      "issueNumber": 82573,
+      "isPRComment": false,
+      "author": "yasen-posthog",
+      "createdAt": "2026-08-27T15:19:21Z"
+    },
+    {
+      "id": 5441266163,
+      "issueNumber": 90020,
+      "isPRComment": true,
+      "author": "k11kirky",
+      "createdAt": "2026-08-27T15:18:35Z"
+    },
+    {
+      "id": 5441244846,
+      "issueNumber": 88195,
+      "isPRComment": false,
+      "author": "andrewm4894",
+      "createdAt": "2026-08-27T15:17:02Z"
+    },
+    {
+      "id": 5441239322,
+      "issueNumber": 89943,
+      "isPRComment": true,
+      "author": "k11kirky",
+      "createdAt": "2026-08-27T15:16:42Z"
+    },
+    {
+      "id": 5441237416,
+      "issueNumber": 90207,
+      "isPRComment": true,
+      "author": "Gilbert09",
+      "createdAt": "2026-08-27T15:16:35Z"
+    },
+    {
+      "id": 5441232189,
+      "issueNumber": 90198,
+      "isPRComment": false,
+      "author": "pauldambra",
+      "createdAt": "2026-08-27T15:16:13Z"
+    },
+    {
+      "id": 5431685652,
+      "issueNumber": 89744,
+      "isPRComment": true,
+      "author": "pauldambra",
+      "createdAt": "2026-08-26T22:08:32Z"
+    },
+    {
+      "id": 5441095658,
+      "issueNumber": 89768,
+      "isPRComment": false,
+      "author": "DanielVisca",
+      "createdAt": "2026-08-27T15:06:25Z"
+    },
+    {
+      "id": 5441064014,
+      "issueNumber": 90191,
+      "isPRComment": false,
+      "author": "gantoine",
+      "createdAt": "2026-08-27T15:04:10Z"
+    },
+    {
+      "id": 5441045426,
+      "issueNumber": 89763,
+      "isPRComment": true,
+      "author": "rodrigoi",
+      "createdAt": "2026-08-27T15:02:43Z"
+    }
+  ]
+}
