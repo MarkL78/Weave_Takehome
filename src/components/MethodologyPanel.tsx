@@ -5,7 +5,7 @@ const dimensions = [
     name: 'Unblocking Power',
     weight: '35%',
     description:
-      'The highest-weighted dimension. Measures how effectively an engineer unblocks teammates by reviewing their PRs. Combines review turnaround time (median hours from PR creation to first review — faster is better) with the total number of distinct merged PRs reviewed.',
+      'The highest-weighted dimension. Measures how effectively an engineer keeps teammates moving. Combines review response time (median hours from PR creation to first review — faster is better, and all review types count equally, so rejecting a bad PR quickly is just as valuable as approving a good one) with the total number of distinct merged PRs reviewed.',
   },
   {
     name: 'Review Authority',
